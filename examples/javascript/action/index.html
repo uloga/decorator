@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decorator Javascript Actions Component</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Decorator Javascript Actions Component">
+<meta name="author" content="">
+<!-- ===== CSS START ==== -->
+<link href="../_assets/css/decorator.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<!-- ===== CSS END ==== -->
+</head>
+<body>
+<div class="wrapper">    
+<h1 class="tst-title">JavaScript: Drop Actions</h1>
+<!-- 
+Start Of Component 
+================================================================================
+-->
+
+<div class="row example">
+    
+    <div class="content">
+        
+        <div class="action-wrap action-right"><!-- Drop Action One Start -->
+
+            <a href="#" class="btn redish action action-one">Click Me<span>+</span></a>
+
+            <ul class="drop-action">
+                <li><a href="#">Hello World</a></li>
+                <li><a href="#">We Love To Code</a></li>
+                <li><a href="#">How About You?</a></li>
+            </ul>
+
+        </div><!-- Drop Action One End -->
+
+        <div class="action-wrap action-left"><!-- Drop Action Two Start -->
+
+            <a href="#" data-placement="bottom" class="btn blue action action-two"><span>+</span>Click Me</a>
+
+            <ul class="drop-action">
+                <li><a href="#">Hello World</a></li>
+                <li><a href="#">We Love To Code</a></li>
+                <li><a href="#">How About You?</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Decorator Is Awesome</a></li>
+            </ul>
+
+        </div><!-- Drop Action Two End -->
+        
+        
+        <div class="action-wrap action-right"><!-- Drop Action Three Start -->
+
+            <a href="#" class="btn redish action action-3">Hover<span>+</span></a>
+
+            <ul class="drop-action">
+                <li><a href="#">Hello World</a></li>
+                <li><a href="#">We Love To Code</a></li>
+                <li><a href="#">How About You?</a></li>
+            </ul>
+
+        </div><!-- Drop Action Three End -->
+        
+
+        <div class="action-wrap action-left"><!-- Drop Action Four Start -->
+
+            <a href="#" class="btn blue action action-4"><span>+</span>Hover</a>
+
+            <ul class="drop-action">
+                <li><a href="#">Hello World</a></li>
+                <li><a href="#">We Love To Code</a></li>
+                <li><a href="#">How About You?</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Decorator Is Awesome</a></li>
+            </ul>
+
+        </div><!-- Drop Action Four End -->
+        
+    </div>
+    
+</div>
+
+
+<!-- 
+================================================================================
+End Of Component
+-->
+
+<div class="footer">
+    <ul class="list list-inline">
+
+        <li class="first"><a href="http://decorator.codable.org/" title="decorator front-end">Decorator</a></li>
+        <li><a href="https://twitter.com/codableorg" title="decorator front-end" target="_blank">Twitter</a></li>
+        <li><a href="https://www.facebook.com/Codable" title="decorator front-end" target="_blank">Facebook</a></li>
+        <li><a href="https://google.com/+CodableOrg" title="decorator front-end" target="_blank">Google+</a></li>
+        <li><a href="http://uloga.net" title="decorator front-end" target="_blank">About</a></li>
+        <li><a href="https://plus.google.com/b/115567126827365439397/communities/102478196368985743752" title="decorator front-end" target="_blank">Need Help?</a></li>
+    </ul>
+</div>  
+
+</div>   
+
+    
+<!-- ==================
+    JAVASCRIPT START 
+======================= -->
+<script src="../_assets/js/jquery.js"></script>
+<script src="../_assets/js/decorator/dc.action.js"></script>
+<!-- ==================
+     JAVASCRIPT END
+======================= -->
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    
+    //action one
+    $('.action-one').dcAction();
+    
+    //action two
+    $('.action-two').dcAction({open_span: "x"});
+    
+    // action three
+    $('.action-3').dcAction({trigger: "hover"});
+    
+    // action four
+    $('.action-4').dcAction({trigger: "hover"});
+    
+});
+
+</script>
+</body>
+</html>

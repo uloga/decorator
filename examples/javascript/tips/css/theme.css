@@ -1,0 +1,49 @@
+/*
+Software: Decorator Blank Theme
+Author: Alan Museljic "Uloga"
+Author URI: http://uloga.net
+Twitter: https://twitter.com/alanuloga
+Facebook: https://facebook.com/webrebelz
+Under GPL License: http://www.gnu.org/licenses/gpl.html
+*/
+body{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    display: block;
+    height: 1000px;
+    padding: 20px 80px;
+}
+.wrapper .tst-title {
+    font-size: 26px;
+    color: #3D3333;
+    float: left;
+    width: 100%;
+    margin-bottom: 55px;
+    font-family: Arial;
+    padding-bottom: 10px;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn{
+    margin-right: 40px;
+}
+.btn:hover{
+    background: #f6f6f6;
+}
+
+.btn-hoog{
+    height: 80px;
+    width: 180px;
+}
+
+.test{
+    float: left;
+    margin: 200px;
+}

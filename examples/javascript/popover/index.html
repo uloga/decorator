@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decorator Javascript Components</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- ===== CSS START ==== -->
+<link href="../_assets/css/decorator.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<!-- ===== CSS END ==== -->
+</head>
+<body>
+<div class="wrapper content">    
+<h1 class="tst-title">JavaScript PopOver</h1>
+<!-- 
+Start OF Component Test Code 
+================================================================================
+-->
+    
+    <!-- First Show Left Start: Get data element:div-content -->
+    
+    <a class="btn button basic" data-placement="left" data-content="element:mydiv" title="Passed Title Left" href="#">Left Hover</a>
+    
+    <div class="mydiv hide">
+        <p>
+            Decorator is an easy to implement and use front-end framework for creating web and mobile
+            supported applications. Decorator is based on HTML, CSS and Javascript. 
+            It includes lot's of ready to use pre-built components and templates.
+        </p>
+    </div>
+    <!-- First Show Left: Get data element:div-content -->
+    
+    
+    <!-- Second Show Right Start: Get data element:div-content -->
+    <a class="btn button" data-placement="right" data-content="element:mydiv" title="Passed Title Right" href="#">Right Hover</a>
+    
+    <div class="mydiv hide">
+        <p>
+            Second is an easy to implement and use front-end framework for creating web and mobile
+            supported applications. Decorator is based on HTML, CSS and Javascript. 
+            It includes lot's of ready to use pre-built components and templates.
+        </p>
+    </div>
+    <!-- Second Show Right End: Get data element:div-content -->
+    
+    <!-- First Show Bottom Start: uses data wrapper -->
+    
+    <div class="pop-wrap">
+
+        <a class="btn button" data-placement="bottom" href="">Bottom Hover</a>
+
+        <div class="pop-inner">
+            <div class="pop-padder">
+            <h3 class="pop-title">Popover Bottom</h3>
+
+            <div class="pop-content">
+                <p>
+                    Decorator is an easy to implement and use front-end framework for creating web and mobile
+                    supported applications. Decorator is based on HTML, CSS and Javascript. 
+                    It includes lot's of ready to use pre-built components and templates.
+                </p>
+            </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Second Show Right End: Get data element:div-content -->
+    
+    <!-- Simple Link Start : uses data-content="some content" as content -->
+
+    <a class="btn link" data-placement='top' data-content="This is some content" title='On Click Title'>Top Click</a>
+    
+    <!-- Ajax Load Link Start : uses href value as request to load the ajax content -->
+    
+    <a href="ajax/load.html"  data-placement="bottom" title="Ajax: I'm here to stay" class="btn ajax">Ajax Hover Load</a>
+    
+    <!-- Ajax Load Link End : uses href value as request to load the ajax content -->
+    
+
+
+<!-- 
+================================================================================
+End Of Component Test Code
+-->
+   
+</div>   
+    
+<!-- ==================
+    JAVASCRIPT START 
+======================= -->
+<script src="../_assets/js/jquery.js"></script>
+<script src="../_assets/js/decorator/dc.popover.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    
+    //trigger on hover
+    $(".button").dcPopover({trigger: "hover"});
+    
+    //on click
+    $(".link").dcPopover();
+    
+    //ajax content uses trigger: popinfo which allowes popover to stay in place
+    //while hovering 
+    $('.ajax').dcPopover({ajax: true, trigger: "popinfo"});
+    
+});
+
+</script>
+<!-- ==================
+     JAVASCRIPT END
+======================= -->
+</body>
+</html>

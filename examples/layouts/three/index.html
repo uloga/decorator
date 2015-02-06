@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Three Column Responsive Layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Three Column Responsive Layout">
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="responsive, responsive design, list, lists, media, html, css, html5, css3, inline, drop down, menu, navbar" />
+<!-- ===== CSS START ==== -->
+<link href="../_assets/css/decorator.css" rel="stylesheet">
+<link href="../_assets/css/icons-ttf.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<!-- ===== CSS END ==== -->
+</head>
+<body class="fluid">
+    
+    <!-- Header / Menu Start -->
+    
+    <div class="fixed-header">
+        <div class="width">
+            <!-- Top horizontal navbar start -->
+
+            <div class="navbar top-bar">
+
+                <a href="#" class="brand">Brand</a>
+
+                <ul class="left">
+                    <li class="divider"></li>
+                    <li><a href="#">Left 1</a></li>
+                    <li class="divider"></li>
+                    <li><a class="active" href="#">Left 2</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Left 3</a></li>
+                    <li class="divider"></li>
+                </ul>
+
+                <!-- search form 1 start -->
+                <form class="search-form">
+                    <input type="text" class="input-left" placeholder="Search anything..">
+                    <button type="submit" class="button button-right">Search</button>
+                </form>
+                <!-- search form 1 end -->
+
+                <ul class="right">
+                    <li class="divider"></li>
+                    <li><a href="#">Right 1</a></li>
+                </ul>
+
+            </div>
+
+            <!-- Top horizontal navbar end -->
+        </div>
+    </div>
+    
+    <!-- Header / Menu End -->
+    
+    <!-- Wrapper Start -->
+    <div class="wrapper clearfix">
+        
+        <div class="intro"><!-- Intro Start -->
+            
+            <div class="about-wrapper width">
+                <a class="thumbnail" href="#" title="Decorator">
+                    <img src="../_assets/media/alan.jpg" alt="Decorator">
+                </a>
+                <h1>Alan Museljic</h1>
+                <p class="about">
+                    Full stack developer with over 15 years of experience in developing web and desktop applications. 
+                    Currently working on Decorator front end framework.
+                </p>
+
+                <ul class="list list-inline list-float"><!-- Social Connect Start -->
+                    <li>
+                        <span class="meta">Followers</span>
+                        <span class="meta"><a href="#">28</a></span>
+                    </li>
+                    <li class="devider"></li>
+                    <li>
+                        <span class="meta">Following</span>
+                        <span class="meta"><a href="#">258</a></span>
+                    </li>
+                    <li class="devider"></li>
+                    <li class="special">
+                        <a class="btn-icon green" href=""><span class="dcon dcon-man-people-streamline-user"></span> Follow</a>
+                    </li>
+                    <li class="special">
+                        <a class="btn-icon blue" href="#"><span class="dcon dcon-settings-streamline-1"></span></a>
+                    </li>
+                </ul><!-- Social Connect End -->
+                
+            </div>
+            
+        </div><!-- Intro End -->    
+        
+        <div class="inner width"><!-- Content Inner Start -->
+            
+            <div class="row padder"><!-- Row / Content Start-->
+                
+                
+                <div class="block2 fluid-hide"><!-- Sidebar Left Start-->
+                    
+                    <div class="widget">
+                        
+                        <h3><a href="#"><span class="dcon dcon-man-people-streamline-user"></span> Who to follow</a></h3>
+                        
+                        <ul class="media-list">
+                            <li>
+                                <a class="media-thumbnail" href=""><img src="../_assets/media/gandhi.jpg"></a>
+                                <div class="media-content">
+                                    <a href="#" class="media-title">Mahatma Gandhi</a>
+                                    <a href="#" class="btn">Follow</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="media-thumbnail" href=""><img src="../_assets/media/mandela.jpg"></a>
+                                <div class="media-content">
+                                    <a href="#" class="media-title">Nelson Mandela</a>
+                                    <a href="#" class="btn">Follow</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="media-thumbnail" href=""><img src="../_assets/media/teresa.jpg"></a>
+                                <div class="media-content">
+                                    <a href="#" class="media-title">Mother Teresa</a>
+                                    <a href="#" class="btn">Follow</a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div><!-- Sidebar Left End-->
+                
+                <div class="block7"><!-- News Feed Start-->
+                    
+                    <div class="feed"><!-- Feed Start -->
+                    
+                    <div class="node post-form"><!-- Node Post Form Start -->
+                        
+                        <ul class="post-menu">
+                            
+                            <li class="active first">
+                                <a href="#"><i class="dcon dcon-list"></i> Status</a>
+                                <div class="arr-wrapper" style="display: none;">
+                                    <span class="arrow-up-back"></span>
+                                    <span class="arrow-up-front"></span>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <a href="#"><i class="dcon dcon-photo"></i> Photos</a>
+                                <div class="arr-wrapper" style="display: none;">
+                                    <span class="arrow-up-back"></span>
+                                    <span class="arrow-up-front"></span>
+                                </div>
+                            </li>
+                            
+                            <li class="last">
+                                <a href="#"><i class="dcon dcon-play-video"></i> Video</a>
+                                <div class="arr-wrapper" style="display: none;">
+                                    <span class="arrow-up-back"></span>
+                                    <span class="arrow-up-front"></span>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                           
+                        <form class="form-basic text-area">
+                            <textarea placeholder="what's on your mind?"></textarea>
+                            <button class="btn submit blue">Submit</button>
+                        </form> 
+                        
+                        
+                    </div><!-- Node Post Form End -->
+                        
+                       
+                    <div class="node"><!-- Node One Start -->
+                        
+                        <div class="node-header">
+                            <a href="#" class="thumbnail"><img src="../_assets/media/alan.jpg" alt="Alan Museljic"></a>
+                            <div class="header-info">
+                                <a class="username" href="" title="">Alan Museljic</a>
+                                <p class="date">Posted a text update <span class="date"> - 3:35 PM</span></p>
+                            </div>
+                        </div>
+                        
+                        <div class="node-content text-node">
+                            <p>
+                                Contrary to popular belief, Lorem Ipsum is not simply 
+                                random text. It has roots in a piece of classical Latin 
+                                literature from 45 BC, making it over 2000 years old. 
+                                Richard McClintock, a Latin professor at Hampden-Sydney 
+                                College in Virginia, looked up one of the more obscure Latin words, 
+                                consectetur, from a Lorem Ipsum passage, and going through the cites 
+                                of the word in classical literature, discovered the undoubtable source. 
+                            </p>
+                        </div>
+                        
+                        <div class="node-meta">
+                            <ul>
+                                <li>
+                                    <span>25 - </span><a href="">Like</a>
+                                </li>
+                                <li>
+                                    <span>33 - </span><a href="">Share</a>
+                                </li>
+                                <li>
+                                    <span>125 - </span><a href="">Comment</a>
+                                </li>
+                            </ul>
+                            <a class="expend" href="">Expend</a>
+                        </div>
+                        
+                    </div><!-- Node One End -->
+                    
+                    <div class="node node-video"><!-- Node Two Start -->
+                        
+                        <div class="node-header">
+                            <a href="#" class="thumbnail"><img src="../_assets/media/alan.jpg" alt="Alan Museljic"></a>
+                            <div class="header-info">
+                                <a class="username" href="" title="">Alan Museljic</a>
+                                <p class="date">Posted a video <span class="date"> - 3:35 PM</span></p>
+                            </div>
+                        </div>
+                        
+                        <div class="node-content text-node">
+                            <a href="#" class="video">
+                                <img src="http://i.ytimg.com/vi/eU4ZvfkmOck/mqdefault.jpg" alt="">
+                                <span class="play"><span class="dcon dcon-play"></span></span>
+                            </a>
+                        </div>
+                        
+                        <div class="node-meta">
+                            <ul>
+                                <li>
+                                    <span>25 - </span><a href="">Like</a>
+                                </li>
+                                <li>
+                                    <span>33 - </span><a href="">Share</a>
+                                </li>
+                                <li>
+                                    <span>125 - </span><a href="">Comment</a>
+                                </li>
+                            </ul>
+                            <a class="expend" href="">Expend</a>
+                        </div>
+                        
+                    </div><!-- Node Two End -->
+                    
+                    <div class="node node-photo"><!-- Node Two Start -->
+                        
+                        <div class="node-header">
+                            <a href="#" class="thumbnail"><img src="../_assets/media/alan.jpg" alt="Alan Museljic"></a>
+                            <div class="header-info">
+                                <a class="username" href="" title="">Alan Museljic</a>
+                                <p class="date">Posted a photo <span class="date"> - 3:35 PM</span></p>
+                            </div>
+                        </div>
+                        
+                        <div class="node-content text-node">
+                            <a href="#" class="photo">
+                                <img src="../_assets/media/yt1.jpg" alt="">
+                            </a>
+                        </div>
+                        
+                        <div class="node-meta">
+                            <ul>
+                                <li>
+                                    <span>25 - </span><a href="">Like</a>
+                                </li>
+                                <li>
+                                    <span>33 - </span><a href="">Share</a>
+                                </li>
+                                <li>
+                                    <span>125 - </span><a href="">Comment</a>
+                                </li>
+                            </ul>
+                            <a class="expend" href="">Expend</a>
+                        </div>
+                        
+                    </div><!-- Node Two End -->
+                    
+                    </div><!-- Feed End -->
+                    
+                </div><!-- News Feed End-->
+                
+                <div class="block3"><!-- Sidebar Right Start-->
+                    
+                    <div class="widget">
+                        
+                        <h3><a href="#"><span class="dcon dcon-picture-streamline"></span> 27 photos</a></h3>
+                        
+                        <ul class="media-grid grid3">
+                            <li><a href=""><img src="../_assets/media/social/1.jpg"></a></li>
+                            <li><a href=""><img src="../_assets/media/social/2.jpg"></a></li>
+                            <li><a href=""><img src="../_assets/media/social/3.jpg"></a></li>
+                            <li><a href=""><img src="../_assets/media/social/4.jpg"></a></li>
+                            <li><a href=""><img src="../_assets/media/social/5.jpg"></a></li>
+                            <li><a href=""><img src="../_assets/media/social/6.jpg"></a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div><!-- Sidebar Right End-->
+                
+            </div><!-- Row / Content End-->
+            
+        </div><!-- Content Inner End -->
+        
+    </div>
+    <!-- Wrapper End -->
+
+<!-- ==================
+    JAVASCRIPT START 
+======================= -->
+<script src="../_assets/js/jquery.js"></script>
+<script src="../_assets/js/decorator/dc.menu.js"></script>
+<!-- ==================
+     JAVASCRIPT END
+======================= -->
+
+<script type="text/javascript">
+    
+   $(document).ready(function(){
+        $('.navbar').dcMenu();
+   });
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/*
+Software: Decorator Blank Theme
+Author: Alan Museljic "Uloga"
+Author URI: http://uloga.net
+Twitter: https://twitter.com/alanuloga
+Facebook: https://facebook.com/webrebelz
+Under GPL License: http://www.gnu.org/licenses/gpl.html
+*/
+body{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    display: block;
+    padding: 20px 80px;
+}
+.wrapper .tst-title {
+    font-size: 26px;
+    color: #3D3333;
+    float: left;
+    width: 100%;
+    font-family: Arial;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+.tab-panels{
+    margin-bottom: 55px;
+}
+.panel p{
+    color: #555;
+}
+.panel p span{
+    margin-bottom: 6px;
+    color: #0084B4;
+    font-weight: bold;
+}
+.panel p a{
+    font-weight: bold;
+    color: #EE4D3B;
+    text-decoration: underline;
+}
+.panel p a:hover{
+    text-decoration: none;
+}
+.panel img, .ajax-panel img {
+    float: left;
+    margin: 0 10px 7px 0;
+}
+.wfp img{
+    margin: 0 10px 6px 0;
+    height: 204px;
+    width: 215px;
+}
+
+.info-about {
+    float: left;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    width: 97%;
+    margin: 25px 0;
+    border-top: 1px solid #ddd;
+    font-size: 18px;
+    color: #555;
+    background: #f6f6f6;
+}
+.info-about span {
+    background: #F3AB44;
+    padding: 4px 9px;
+    color: #fff;
+    margin-right: 6px;
+    border-radius: 122px;
+}

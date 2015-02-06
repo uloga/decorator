@@ -1,0 +1,155 @@
+/*
+Software: Decorator Codable Front End FW 1.0
+Author: Alan Museljic "Uloga"
+Author URI: http://uloga.net
+Twitter: https://twitter.com/_uloga
+Facebook: https://facebook.com/webrebelz
+Under GPL License: http://www.gnu.org/licenses/gpl.html
+*/
+body{
+    background: #fafafa;
+    font-family: Arial;
+    line-height: 21px;
+}
+.width{
+    width: 960px;
+    margin: 0 auto;
+}
+.fixed-header .search-form{
+    border: 1px solid #c3c3c3;
+    margin-top: -1px;
+}
+.navbar li a:hover, .top-bar li a:hover, 
+.top-bar li .active, .top-bar li .drop-active {
+    height: 17px;
+}
+/* wrapper */
+.wrapper{
+    margin: 44px auto;
+}
+
+/* intro */
+.intro{
+    background: #eee;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0 !important;
+}
+.intro .width{
+    padding: 60px 40px;
+    height: 280px;
+}
+.intro h1 {
+    font-size: 32px;
+    line-height: 34px;
+    color: #333;
+}
+.intro .desc {
+    font-size: 18px;
+    color: #555;
+}
+.intro .action .btn {
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    font-size: 16px;
+    padding: 6px;
+}
+.block8{
+    padding: 0 20px 0 0;
+}
+.media-grid .grid-title {
+    color: #444;
+}
+.media-grid .grid-title:hover{
+    text-decoration: underline;
+}
+/* trailer promo */
+.trailer-promo, .trailer-promo img{
+    width: 100%;
+}
+.trailer-promo .trailer-title {
+    margin: 5px 0;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    color: #333;
+    font-size: 15px;
+}
+.trailer-promo .trailer-title:hover {
+    text-decoration: underline;
+}
+.trailer-promo .trailer-info {
+    color: #555;
+    float: left;
+    width: 100%;
+}
+.row{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+/* footer */
+.footer > ul li a{
+    color: #444;
+}
+.footer > ul li a:hover{
+    text-decoration: underline;
+}
+/* responsive edits */
+@media (max-width: 1024px){
+    .padder{
+        padding: 0 15px;
+    }
+}
+@media (max-width: 768px){
+    .navbar .search-form {
+        border: none;
+        margin: 15px 0;
+    }
+    .navbar .search-form input{
+        border: 1px solid #ccc;
+    }
+    .navbar .search-form .button {
+        border: 1px solid #ccc;
+        position: relative;
+        right: 1px;
+    }
+    .width{
+        width: 100%;
+    }
+    .intro .width{
+        padding: 15px;
+        height: auto;
+    }
+    .intro .desc{
+        font-size: 14px;
+    }
+    /* media grid edits */
+    .media-grid-wide li, .media-grid li {
+        width: 22.73333333%;
+        margin: 0 3% 3% 0 !important;
+    }
+    .media-grid li:nth-child(3n+0) {
+        margin-right: 3% !important;
+    }
+    .media-grid li:nth-child(4n+0) {
+        margin-right: 0 !important;
+    }
+    .trailer-content{
+        margin-bottom: 15px;
+        float: left;
+    }
+    .footer .list{
+        width: 92%;
+        margin: 0 auto !important;
+        float: none;
+    }
+}
+@media (max-width: 533px){
+    .media-grid li{
+        width: 48.5% !important;
+    }
+}

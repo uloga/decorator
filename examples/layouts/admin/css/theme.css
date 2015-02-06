@@ -1,0 +1,148 @@
+/*
+Software: Decorator Codable Front End FW 1.0
+Author: Alan Museljic "Uloga"
+Author URI: http://uloga.net
+Twitter: https://twitter.com/_uloga
+Facebook: https://facebook.com/webrebelz
+Under GPL License: http://www.gnu.org/licenses/gpl.html
+*/
+html, body{
+    height: 100%;
+}
+body{
+    background: #fafafa;
+    font-family: Arial;
+    line-height: 21px;
+}
+
+/* header / menu */
+.fixed-header .navbar{
+    background: #fff;
+}
+.navbar .search-form{
+    border: 1px solid #c3c3c3;
+    margin-top: -1px;
+}
+.navbar .white{
+    border-bottom: 1px solid #d6d6d6;
+}
+/* wrapper */
+.wrapper{
+    padding: 44px 0 0 0;
+    height: 100%;
+}
+.wrapper, .wrapper *{
+    -webkit-box-sizing: border-box !important;
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+}
+/* sidebar */
+.sidebar{
+    background: #fff;
+    width: 246px;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    z-index: 999;
+}
+/* menu */
+.sidebar .menu{
+    margin-top: 0;
+}
+.sidebar .menu li a {
+    width: 100.5%;
+    font-size: 14px;
+    border-bottom: none;
+    border-right: 4px solid transparent;
+}
+.sidebar .menu li a strong{
+    font-weight: normal;
+}
+.sidebar .menu .dcon {
+    float: left;
+    font-size: 19px;
+    margin-right: 15px;
+    margin-left: 4px;
+    position: relative;
+    top: 1px;
+}
+.sidebar .menu li a:hover, 
+.sidebar .menu .active a {
+    background: #eee;
+    border-right-color: #777;
+    color: #333;
+}
+/* table */
+.table-wrapper{
+    margin-left: 245px;
+}
+.table-wrapper .inner{
+    width: 100%;
+    float: left;
+    padding: 5px 20px;
+}
+.table-wrapper .striped-table tr:nth-child(odd) > td {
+    background: #eee;
+}
+.table-wrapper .table th, .table td {
+    padding: 10px;
+    line-height: 25px;
+    text-align: left;
+    border: none;
+}
+.table-wrapper .pagination-wrapper{
+    float: left;
+    margin: 25px 0;
+}
+.pagination li a{
+    color: #666;
+}
+.pagination .active a, 
+.pagination > .active > span, 
+.pagination li a:hover {
+    background-color: #777;
+    border-color: #777;
+    color: #fff;
+    z-index: 5;
+}
+/* form input reset */
+
+.wrapper input{
+    height: 34px;
+}
+/* responsive */
+@media (max-width: 768px){
+    
+    .navbar .search-form {
+        border: none;
+        margin: 15px 0;
+    }
+    .navbar .search-form input{
+        border: 1px solid #ccc;
+    }
+    .navbar .search-form .button {
+        border: 1px solid #ccc;
+        position: relative;
+        right: 1px;
+    }
+    /* sidebar menu */
+    .sidebar{
+        width: 74px;
+    }
+    .sidebar .menu{
+        margin-top: 10px;
+    }
+    .sidebar .menu li a{
+        text-align: center;
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    .sidebar .menu .dcon{
+        width: 100%;
+        margin: 0;
+    }
+    .table-wrapper {
+        margin-left: 74px;
+    }
+}

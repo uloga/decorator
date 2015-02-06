@@ -1,0 +1,121 @@
+/*
+Software: Decorator Codable Front End FW 1.0
+Author: Alan Museljic "Uloga"
+Author URI: http://uloga.net
+Twitter: https://twitter.com/_uloga
+Facebook: https://facebook.com/webrebelz
+Under GPL License: http://www.gnu.org/licenses/gpl.html
+*/
+body{
+    background: #fafafa;
+    font-family: Arial;
+    line-height: 21px;
+}
+/* reset */
+.width{
+    width: 748px;
+    margin: 0 auto;
+}
+/* header / menu */
+.fixed-header .navbar{
+    background: #fff;
+}
+.navbar .search-form{
+    border: 1px solid #c3c3c3;
+    margin-top: -1px;
+}
+.navbar li a:hover, .top-bar li a:hover, 
+.top-bar li .active, .top-bar li .drop-active {
+    height: 17px;
+}
+/* wrapper */
+.wrapper{
+    margin: 44px auto;
+}
+/* intro */
+.intro{
+    background: #eee;
+    float: left;
+    padding: 50px 40px;
+    margin-bottom: 25px;
+}
+.intro h1 {
+    font-size: 29px;
+}
+.intro .action .btn {
+    width: 116px;
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+/* grid */
+.media-grid-wide li{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+/* promo */
+.promo{
+    margin-top: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.promo .left .padder, .promo .right .padder {
+    padding: 20px;
+    height: 200px;
+}
+.promo .title{
+    line-height: 34px;
+}
+/* footer */
+.footer {
+    float: left;
+    border-top: 1px solid #ddd;
+    padding: 10px 0 25px 0;
+}
+.footer > ul li a{
+    color: #444;
+}
+.footer > ul li a:hover{
+    text-decoration: underline;
+}
+
+/* responsive edits */
+@media (max-width: 1024px){
+    .width{
+        width: 748px !important
+    }
+}
+@media (max-width: 768px){
+    
+    .navbar .search-form {
+        border: none;
+        margin: 15px 0;
+    }
+    .navbar .search-form input{
+        border: 1px solid #ccc;
+    }
+    .navbar .search-form .button {
+        border: 1px solid #ccc;
+        position: relative;
+        right: 1px;
+    }
+    .width{
+        width: 100%;
+    }
+    .promo .left .padder, .promo .right .padder {
+        padding: 25px 20px !important;
+        height: auto;
+    }
+    .footer .list{
+        width: 92%;
+        margin: 0 auto !important;
+        float: none;
+    }
+    
+}
+@media (max-width: 534px){
+    .media-grid-wide li:nth-child(3n+0) {
+        width: 100%;
+        margin-right: 0 !important;
+    }
+}

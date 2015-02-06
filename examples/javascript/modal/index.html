@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decorator Javascript Components</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- ===== CSS START ==== -->
+<link href="../_assets/css/decorator.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<!-- ===== CSS END ==== -->
+</head>
+<body>
+<div class="wrapper">    
+<h1 class="tst-title">JavaScript Modal</h1>
+<!-- 
+Start OF Component Test Code 
+================================================================================
+-->
+<!-- Modal Triggers Start -->
+
+<a class="btn ajax_" href="#" data-content="ajax/load.html" data-target="modal-ajax">Modal Ajax</a>
+
+<a class="btn form_" href="#" title="Modal Title One" data-target="modal-form">Modal Form</a>
+
+<a class="btn fromleft_" href="#"  data-target="modal-left-right" title="Title From Left">From Left</a>
+
+<a class="btn fromright_" href="#"  data-target="modal-left-right" title="Title From Right">From Right</a>
+
+<a class="btn ytstatic_" href="#"  title="ODESZA: Sun Models - World AIDS Day" data-modal-class="youtube" data-target="youtube">YT Static</a>
+
+<a class="btn image_" href="#" data-target="modal-four">Modal Image</a>
+
+<a class="btn youtube_" href="#" title="Some Hip Hop Title" data-target="ytube" data-youtube="https://www.youtube.com/watch?v=etfIdtm-OC8">Yotube Dynamic</a>
+
+<!-- Modal Triggers End -->
+
+
+<!-- Modal Response Start -->
+
+
+<!-- Ajax Start -->
+
+<!-- in this example we request content from params passed in modal trigger -->
+
+<div class="modal-ajax hide"></div>
+
+
+<!-- Ajax End -->
+
+<!-- Simple One  Modal Start -->
+
+<div class="modal-form hide">
+    
+    <!-- This is a static example of modal built directly into html content -->
+    
+    <div class="modal-header">
+        <h2 class="modal-title">Submit Ticket</h2>
+    </div>
+    
+    <div class="modal-content">
+        
+        <!-- Simple comment start -->
+        <form class="form-basic text-area">
+
+            <label>Username</label>
+            <input type="text" placeholder="Username">
+
+            <label>Email address</label>
+            <input type="text" placeholder="Email">
+
+            <label>Message</label>   
+            <textarea rows="4" placeholder="what's on your mind?"></textarea>
+
+        </form>  
+        <!-- Simple comment  end -->
+        
+    </div>
+    
+    <div class="modal-footer">
+        <a  href="#" class="btn blue">Submit</a>
+        <a  href="#" class="btn modal-close">Cancel</a>
+    </div>
+    
+</div>
+
+<!-- Simple Form Modal End -->
+
+
+<!-- Simple Modal load from: Left / Right Start -->
+
+<div class="modal-left-right hide">
+    
+    <!-- This modal has only the main content, footer and header are built from params passed in modal trigger -->
+    
+    <p>This is modal content :)</p>
+   
+</div>
+
+<!-- Simple Modal load from: Left / Right End -->
+
+<!-- Youtube Modal Example Two Start -->
+
+<div class="youtube hide">
+    
+    
+    <!-- In this example we include youtube iframe directly into modal and we build header based on parms passed in modal trigger -->
+    
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/qlEeW3wFhVU" frameborder="0" allowfullscreen></iframe>
+    
+    <div class="modal-footer">
+        <div class="social">
+            <img src="https://pbs.twimg.com/profile_images/517078439753310208/eADmfuHT_400x400.jpeg" alt="Alan Museljic"/>
+            <div class="social-info">
+                <p class="username">
+                    <span>Posted By: </span>
+                    <a href="https://twitter.com/AlanMuseljic" target="_blank">Alan Museljic</a>
+                </p>
+                <p class="date">
+                    <span>Posted: </span>
+                    <a href="#">2 days ago in Music</a>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Youtube Modal Example Two End -->
+
+<!-- Image Modal Start -->
+
+<div class="modal-four hide">
+    
+    <div class="modal-content">
+        <img src="http://planetvolunteer.org/wp-content/uploads/2013/11/Save-the-Children-_-volunteers.jpg">
+    </div>
+    
+    <div class="modal-footer">
+        <h3>Save The Children Foundation</h3>
+        <a  href="http://www.savethechildren.org/" class="btn blue" target="_blank">Donate</a>
+    </div>
+    
+</div>
+
+<!-- Image Modal End -->
+
+
+<!-- Youtube Dynamic Modal Example One Start -->
+
+<div class="ytube hide">
+    
+    
+    <!-- In this example we've included custom modal footer, also this modal builds youtube from parms passed in modal trigger -->
+    
+    <div class="modal-footer">
+        <div class="social">
+            <img src="https://pbs.twimg.com/profile_images/517078439753310208/eADmfuHT_400x400.jpeg" alt="Alan Museljic"/>
+            <div class="social-info">
+                <p class="username">
+                    <span>Posted By: </span>
+                    <a href="https://twitter.com/AlanMuseljic" target="_blank">Alan Museljic</a>
+                </p>
+                <p class="date">
+                    <span>Posted: </span>
+                    <a href="#">2 days ago in Music</a>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <!-- custom footer end -->
+    
+</div>
+
+<!-- Youtube Dynamic Modal Example One End -->
+
+<!-- Modal Response End -->
+
+<!-- 
+================================================================================
+End Of Component Test Code
+-->
+   
+</div>   
+    
+<!-- ==================
+    JAVASCRIPT START 
+======================= -->
+<script src="../_assets/js/jquery.js"></script>
+<script src="../_assets/js/decorator/dc.modal.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    
+    //simple ajax load 
+    $('.ajax_').dcModal({ajax: true});
+    
+    //form modal using reverse hide
+    $('.form_').dcModal(
+        {
+            effect: "up",
+            hide: 'reverse',
+            style: {width: 380}
+        }
+    );
+
+    // load from left
+    $('.fromleft_').dcModal({effect: "left", style: {width: 560}});
+    
+    //load from right
+    $('.fromright_').dcModal({effect: "right", style: {width: 560}});
+    
+    //youtube static
+    $('.ytstatic_').dcModal(
+        {
+            effect: "down", 
+            style: {width: 590},
+            type: "youtube"
+        }
+    );
+    //image 
+    $('.image_').dcModal({effect: "fadeIn", style: {width: 500}});
+    
+    //youtube dynamic
+    $('.youtube_').dcModal({ style: {width: 840}});
+    
+});
+
+</script>
+<!-- ==================
+     JAVASCRIPT END
+======================= -->
+</body>
+</html>

@@ -1,0 +1,75 @@
+/*
+Software: Decorator Blank Theme
+Author: Alan Museljic "Uloga"
+Author URI: http://uloga.net
+Twitter: https://twitter.com/alanuloga
+Facebook: https://facebook.com/webrebelz
+Under GPL License: http://www.gnu.org/licenses/gpl.html
+*/
+body{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    display: block;
+    height: 1000px;
+    padding: 20px 80px;
+    position: relative;
+}
+.wrapper .tst-title {
+    font-size: 26px;
+    color: #3D3333;
+    float: left;
+    width: 100%;
+    margin-bottom: 55px;
+    font-family: Arial;
+    padding-bottom: 10px;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+}
+
+/* media grid edits */
+.content .media-grid{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.content .media-grid li .link{
+    height: 218px;
+    overflow: hidden;
+}
+.content .media-grid .grid-title{
+    color: #444;
+    font-family: Arial;
+}
+.content .media-grid .grid-title:hover{
+    text-decoration: underline;
+}
+.content .media-heading{
+    font-size: 21px;
+    color: #444;
+    float: left;
+    width: 100%;
+    padding-bottom: 6px;
+}
+.content .media-grid .grid-title{
+    font-size: 14px;
+}
+.pop-wrap{
+    float: left;
+}
+.btn{
+    float: left;
+    margin-right: 55px;
+}
+
+.push-top{
+    margin-top: 55px;
+}
+.simple-link{
+    margin: 80px;
+    float: left;
+}

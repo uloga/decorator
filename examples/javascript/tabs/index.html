@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decorator Javascript Components</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- ===== CSS START ==== -->
+<link href="../_assets/css/decorator.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<!-- ===== CSS END ==== -->
+</head>
+<body>
+<div class="wrapper fluid clearfix">    
+<h1 class="tst-title">JavaScript: Tabs</h1>
+<!-- 
+Start OF Component Test Code 
+================================================================================
+-->
+
+
+<h1 class="info-about"><span>1</span> Ajax Tabs: on click load content</h1>
+
+<!-- Tabs Ajax Start -->
+
+<div class="tab-panels tabs-two">
+	<ul class="tab-actions filter-bottom">
+		<li><a href="ajax/one.html">Tab One</a></li>
+		<li><a href="ajax/two.html">Tab Two</a></li>
+                <li><a href="ajax/three.html">Tab Three</a></li>
+	</ul>
+	<div class="panel ajax-panel">
+            
+	</div>
+</div>
+
+<!-- Tabs Ajax Start -->
+
+<h1 class="info-about"><span>2</span> ON HOVER SLIDE IN FROM LEFT : accepts click trigger as well</h1>
+
+<!-- Tabs Hover Left Start -->
+
+<div class="tab-panels tabs hover-left">
+    
+    <ul class="tab-actions filter-bottom">
+        <li><a id="panel-1" href="#">Tab One</a></li>
+        <li><a id="panel-2" href="#">Tab Two</a></li>
+        <li><a id="panel-3" href="#">Tab Three</a></li>
+    </ul>
+
+    <div class="panel panel-1 panel-current">
+        <p>
+            <a class="tab-tmb" href="http://www.charlizeafricaoutreach.org" target="_blank"><img src="img/caop.jpg" width="250"/></a>
+            With the general lack of roads, electricity, schools, hospitals and health clinics, 
+            as well as a lack of potable water and sanitation services, we helped Mpilonhle embark on 
+            a more holistic approach to address the broader needs of the community in ways which enhanced their HIV prevention work.
+            In early 2011, construction began on a collaborative community initiative called Home Field Advantage (
+            HFA) to bring clean water sources, sports fields, food gardens, community laundry basins, and 
+            non-contaminating toilet blocks to four secondary schools.
+            The generosity of CTAOP’s supporters, including the Annenberg Foundation, ONEXONE, 
+            Orange County Center for Living Peace, Red Granite Pictures and many others, enabled 
+            Mpilonhle to create hubs of activity at these schools that will allow their health services 
+            to reach beyond enrolled students to the community at large.
+            Would you like to learn more about this project? Check: 
+            <a href="http://www.charlizeafricaoutreach.org/about-ctaop/mission-values/" target="_blank">Our Mission & Values </a>
+        </p>
+    </div>
+
+    <div class="panel panel-2">
+        <p>
+            <a class="tab-tmb" href="http://www.savethechildren.org/" target="_blank"><img src="img/children.jpeg" width="200"/></a>
+            The Save the Children Fund, commonly known as Save the Children, is an international non-governmental 
+            organization that promotes children's rights, provides relief and helps support children in developing 
+            countries. It was established in the United Kingdom in 1919 in order to improve the lives 
+            of children through better education, health care, and economic opportunities, as well as providing emergency 
+            aid in natural disasters, war, and other conflicts.
+            In addition to the UK organisation, there are 30 other national Save the Children organisations 
+            who are members of Save the Children International, a global network of nonprofit organisations s
+            upporting local partners in over 120 countries around the world.
+            Save the Children promotes policy changes in order to gain more rights for young people 
+            especially by enforcing the UN Declaration of the Rights of the Child. Alliance members 
+            coordinate emergency-relief efforts, helping to protect children from the effects of war and violence. 
+            Save the Children has general consultative status with the United Nations Economic and Social Council.
+            <a href="http://www.savethechildren.org/" target="_blank">Visit Us</a>
+        </p>
+    </div>
+
+    <div class="panel panel-3">
+        <p class="wfp">
+            <a class="tab-tmb" href="http://www.wfp.org" target="_blank"> <img src="img/wfp.jpg" width="200"/></a>
+            <span>Acute hunger or starvation are often highlighted on TV screens: hungry mothers too 
+                weak to breastfeed their children in drought-hit Ethiopia, refugees in war-torn Syria queueing for food rations, 
+                helicopters airlifting high energy biscuits to earthquake victims in Haiti or Pakistan.</span>
+            <br>
+            These situations are the result of high profile crises like war or natural disasters, 
+            which starve a population of food. Yet emergencies account for less than eight percent 
+            of hunger's victims. Daily undernourishment is a less visible form of hunger -- but it 
+            affects many more people, from the shanty towns of Jakarta in Indonesia and the Cambodian 
+            capital Phnom Penh to the mountain villages of Bolivia and Nepal. In these places, hunger 
+            is much more than an empty stomach. For weeks, even months, its victims must live on significantly 
+            less than the recommended 2,100 kilocalories that the average person needs to lead a healthy life. 
+            The body compensates for the lack of energy by slowing down its physical and mental activities. 
+            A hungry mind cannot concentrate, a hungry body does not take initiative, a hungry child loses all 
+            desire to play and study. Hunger also weakens the immune system. Deprived of the right nutrition, 
+            hungry children are especially vulnerable and become too weak to fight off disease and may die from common 
+            infections like measles and diarrhoea. Each year, almost 7 million children die before reaching the age of five; 
+            malnutrition is a key factor in over a third of these deaths. <a href="http://www.wfp.org" target="_blank">Visit Us</a>
+        </p>
+    </div>
+</div>
+
+<!-- Tabs Hover Left End -->
+
+
+<h1 class="info-about"><span>3</span> ON HOVER SLIDE IN FROM RIGHT : accepts click trigger as well</h1>
+
+<!-- Tabs Hover Right Start -->
+
+<div class="tab-panels tabs hover-right">
+    
+    <ul class="tab-actions filter-bottom">
+        <li><a id="panel-1" href="#">Tab One</a></li>
+        <li><a id="panel-2" href="#">Tab Two</a></li>
+        <li><a id="panel-3" href="#">Tab Three</a></li>
+    </ul>
+
+    <div class="panel panel-1 panel-current">
+        <p>
+            <a class="tab-tmb" href="http://www.charlizeafricaoutreach.org" target="_blank"><img src="img/caop.jpg" width="250"/></a>
+            With the general lack of roads, electricity, schools, hospitals and health clinics, 
+            as well as a lack of potable water and sanitation services, we helped Mpilonhle embark on 
+            a more holistic approach to address the broader needs of the community in ways which enhanced their HIV prevention work.
+            In early 2011, construction began on a collaborative community initiative called Home Field Advantage (
+            HFA) to bring clean water sources, sports fields, food gardens, community laundry basins, and 
+            non-contaminating toilet blocks to four secondary schools.
+            The generosity of CTAOP’s supporters, including the Annenberg Foundation, ONEXONE, 
+            Orange County Center for Living Peace, Red Granite Pictures and many others, enabled 
+            Mpilonhle to create hubs of activity at these schools that will allow their health services 
+            to reach beyond enrolled students to the community at large.
+            Would you like to learn more about this project? Check: 
+            <a href="http://www.charlizeafricaoutreach.org/about-ctaop/mission-values/" target="_blank">Our Mission & Values </a>
+        </p>
+    </div>
+
+    <div class="panel panel-2">
+        <p>
+            <a class="tab-tmb" href="http://www.savethechildren.org/" target="_blank"><img src="img/children.jpeg" width="200"/></a>
+            The Save the Children Fund, commonly known as Save the Children, is an international non-governmental 
+            organization that promotes children's rights, provides relief and helps support children in developing 
+            countries. It was established in the United Kingdom in 1919 in order to improve the lives 
+            of children through better education, health care, and economic opportunities, as well as providing emergency 
+            aid in natural disasters, war, and other conflicts.
+            In addition to the UK organisation, there are 30 other national Save the Children organisations 
+            who are members of Save the Children International, a global network of nonprofit organisations s
+            upporting local partners in over 120 countries around the world.
+            Save the Children promotes policy changes in order to gain more rights for young people 
+            especially by enforcing the UN Declaration of the Rights of the Child. Alliance members 
+            coordinate emergency-relief efforts, helping to protect children from the effects of war and violence. 
+            Save the Children has general consultative status with the United Nations Economic and Social Council.
+            <a href="http://www.savethechildren.org/" target="_blank">Visit Us</a>
+        </p>
+    </div>
+
+    <div class="panel panel-3">
+        <p class="wfp">
+            <a class="tab-tmb" href="http://www.wfp.org" target="_blank"> <img src="img/wfp.jpg" width="200"/></a>
+            <span>Acute hunger or starvation are often highlighted on TV screens: hungry mothers too 
+                weak to breastfeed their children in drought-hit Ethiopia, refugees in war-torn Syria queueing for food rations, 
+                helicopters airlifting high energy biscuits to earthquake victims in Haiti or Pakistan.</span>
+            <br>
+            These situations are the result of high profile crises like war or natural disasters, 
+            which starve a population of food. Yet emergencies account for less than eight percent 
+            of hunger's victims. Daily undernourishment is a less visible form of hunger -- but it 
+            affects many more people, from the shanty towns of Jakarta in Indonesia and the Cambodian 
+            capital Phnom Penh to the mountain villages of Bolivia and Nepal. In these places, hunger 
+            is much more than an empty stomach. For weeks, even months, its victims must live on significantly 
+            less than the recommended 2,100 kilocalories that the average person needs to lead a healthy life. 
+            The body compensates for the lack of energy by slowing down its physical and mental activities. 
+            A hungry mind cannot concentrate, a hungry body does not take initiative, a hungry child loses all 
+            desire to play and study. Hunger also weakens the immune system. Deprived of the right nutrition, 
+            hungry children are especially vulnerable and become too weak to fight off disease and may die from common 
+            infections like measles and diarrhoea. Each year, almost 7 million children die before reaching the age of five; 
+            malnutrition is a key factor in over a third of these deaths. <a href="http://www.wfp.org" target="_blank">Visit Us</a>
+        </p>
+    </div>
+</div>
+
+<!-- Tabs Hover Right End -->
+
+
+<h1 class="info-about"><span>4</span> ON HOVER SLIDE IN UP : accepts click trigger as well</h1>
+
+
+<!-- Tabs Slide In UP End -->
+
+<div class="tab-panels tabs hover-up">
+    
+    <ul class="tab-actions filter-bottom">
+        <li><a id="panel-1" href="#">Tab One</a></li>
+        <li><a id="panel-2" href="#">Tab Two</a></li>
+        <li><a id="panel-3" href="#">Tab Three</a></li>
+    </ul>
+
+    <div class="panel panel-1 panel-current">
+        <p>
+            <a class="tab-tmb" href="http://www.charlizeafricaoutreach.org" target="_blank"><img src="img/caop.jpg" width="250"/></a>
+            With the general lack of roads, electricity, schools, hospitals and health clinics, 
+            as well as a lack of potable water and sanitation services, we helped Mpilonhle embark on 
+            a more holistic approach to address the broader needs of the community in ways which enhanced their HIV prevention work.
+            In early 2011, construction began on a collaborative community initiative called Home Field Advantage (
+            HFA) to bring clean water sources, sports fields, food gardens, community laundry basins, and 
+            non-contaminating toilet blocks to four secondary schools.
+            The generosity of CTAOP’s supporters, including the Annenberg Foundation, ONEXONE, 
+            Orange County Center for Living Peace, Red Granite Pictures and many others, enabled 
+            Mpilonhle to create hubs of activity at these schools that will allow their health services 
+            to reach beyond enrolled students to the community at large.
+            Would you like to learn more about this project? Check: 
+            <a href="http://www.charlizeafricaoutreach.org/about-ctaop/mission-values/" target="_blank">Our Mission & Values </a>
+        </p>
+    </div>
+
+    <div class="panel panel-2">
+        <p>
+            <a class="tab-tmb" href="http://www.savethechildren.org/" target="_blank"><img src="img/children.jpeg" width="200"/></a>
+            The Save the Children Fund, commonly known as Save the Children, is an international non-governmental 
+            organization that promotes children's rights, provides relief and helps support children in developing 
+            countries. It was established in the United Kingdom in 1919 in order to improve the lives 
+            of children through better education, health care, and economic opportunities, as well as providing emergency 
+            aid in natural disasters, war, and other conflicts.
+            In addition to the UK organisation, there are 30 other national Save the Children organisations 
+            who are members of Save the Children International, a global network of nonprofit organisations s
+            upporting local partners in over 120 countries around the world.
+            Save the Children promotes policy changes in order to gain more rights for young people 
+            especially by enforcing the UN Declaration of the Rights of the Child. Alliance members 
+            coordinate emergency-relief efforts, helping to protect children from the effects of war and violence. 
+            Save the Children has general consultative status with the United Nations Economic and Social Council.
+            <a href="http://www.savethechildren.org/" target="_blank">Visit Us</a>
+        </p>
+    </div>
+
+    <div class="panel panel-3">
+        <p class="wfp">
+            <a class="tab-tmb" href="http://www.wfp.org" target="_blank"> <img src="img/wfp.jpg" width="200"/></a>
+            <span>Acute hunger or starvation are often highlighted on TV screens: hungry mothers too 
+                weak to breastfeed their children in drought-hit Ethiopia, refugees in war-torn Syria queueing for food rations, 
+                helicopters airlifting high energy biscuits to earthquake victims in Haiti or Pakistan.</span>
+            <br>
+            These situations are the result of high profile crises like war or natural disasters, 
+            which starve a population of food. Yet emergencies account for less than eight percent 
+            of hunger's victims. Daily undernourishment is a less visible form of hunger -- but it 
+            affects many more people, from the shanty towns of Jakarta in Indonesia and the Cambodian 
+            capital Phnom Penh to the mountain villages of Bolivia and Nepal. In these places, hunger 
+            is much more than an empty stomach. For weeks, even months, its victims must live on significantly 
+            less than the recommended 2,100 kilocalories that the average person needs to lead a healthy life. 
+            The body compensates for the lack of energy by slowing down its physical and mental activities. 
+            A hungry mind cannot concentrate, a hungry body does not take initiative, a hungry child loses all 
+            desire to play and study. Hunger also weakens the immune system. Deprived of the right nutrition, 
+            hungry children are especially vulnerable and become too weak to fight off disease and may die from common 
+            infections like measles and diarrhoea. Each year, almost 7 million children die before reaching the age of five; 
+            malnutrition is a key factor in over a third of these deaths. <a href="http://www.wfp.org" target="_blank">Visit Us</a>
+        </p>
+    </div>
+</div>
+
+<!-- Tabs Slide In UP End -->
+
+
+<h1 class="info-about"><span>5</span> ON HOVER SLIDE IN DOWN : accepts click trigger as well</h1>
+
+
+<!-- Tabs Slide In Down Start -->
+
+<div class="tab-panels tabs hover-down">
+    
+    <ul class="tab-actions filter-bottom">
+        <li><a id="panel-1" href="#">Tab One</a></li>
+        <li><a id="panel-2" href="#">Tab Two</a></li>
+        <li><a id="panel-3" href="#">Tab Three</a></li>
+    </ul>
+
+    <div class="panel panel-1 panel-current">
+        <p>
+            <a class="tab-tmb" href="http://www.charlizeafricaoutreach.org" target="_blank"><img src="img/caop.jpg" width="250"/></a>
+            With the general lack of roads, electricity, schools, hospitals and health clinics, 
+            as well as a lack of potable water and sanitation services, we helped Mpilonhle embark on 
+            a more holistic approach to address the broader needs of the community in ways which enhanced their HIV prevention work.
+            In early 2011, construction began on a collaborative community initiative called Home Field Advantage (
+            HFA) to bring clean water sources, sports fields, food gardens, community laundry basins, and 
+            non-contaminating toilet blocks to four secondary schools.
+            The generosity of CTAOP’s supporters, including the Annenberg Foundation, ONEXONE, 
+            Orange County Center for Living Peace, Red Granite Pictures and many others, enabled 
+            Mpilonhle to create hubs of activity at these schools that will allow their health services 
+            to reach beyond enrolled students to the community at large.
+            Would you like to learn more about this project? Check: 
+            <a href="http://www.charlizeafricaoutreach.org/about-ctaop/mission-values/" target="_blank">Our Mission & Values </a>
+        </p>
+    </div>
+
+    <div class="panel panel-2">
+        <p>
+            <a class="tab-tmb" href="http://www.savethechildren.org/" target="_blank"><img src="img/children.jpeg" width="200"/></a>
+            The Save the Children Fund, commonly known as Save the Children, is an international non-governmental 
+            organization that promotes children's rights, provides relief and helps support children in developing 
+            countries. It was established in the United Kingdom in 1919 in order to improve the lives 
+            of children through better education, health care, and economic opportunities, as well as providing emergency 
+            aid in natural disasters, war, and other conflicts.
+            In addition to the UK organisation, there are 30 other national Save the Children organisations 
+            who are members of Save the Children International, a global network of nonprofit organisations s
+            upporting local partners in over 120 countries around the world.
+            Save the Children promotes policy changes in order to gain more rights for young people 
+            especially by enforcing the UN Declaration of the Rights of the Child. Alliance members 
+            coordinate emergency-relief efforts, helping to protect children from the effects of war and violence. 
+            Save the Children has general consultative status with the United Nations Economic and Social Council.
+            <a href="http://www.savethechildren.org/" target="_blank">Visit Us</a>
+        </p>
+    </div>
+
+    <div class="panel panel-3">
+        <p class="wfp">
+            <a class="tab-tmb" href="http://www.wfp.org" target="_blank"> <img src="img/wfp.jpg" width="200"/></a>
+            <span>Acute hunger or starvation are often highlighted on TV screens: hungry mothers too 
+                weak to breastfeed their children in drought-hit Ethiopia, refugees in war-torn Syria queueing for food rations, 
+                helicopters airlifting high energy biscuits to earthquake victims in Haiti or Pakistan.</span>
+            <br>
+            These situations are the result of high profile crises like war or natural disasters, 
+            which starve a population of food. Yet emergencies account for less than eight percent 
+            of hunger's victims. Daily undernourishment is a less visible form of hunger -- but it 
+            affects many more people, from the shanty towns of Jakarta in Indonesia and the Cambodian 
+            capital Phnom Penh to the mountain villages of Bolivia and Nepal. In these places, hunger 
+            is much more than an empty stomach. For weeks, even months, its victims must live on significantly 
+            less than the recommended 2,100 kilocalories that the average person needs to lead a healthy life. 
+            The body compensates for the lack of energy by slowing down its physical and mental activities. 
+            A hungry mind cannot concentrate, a hungry body does not take initiative, a hungry child loses all 
+            desire to play and study. Hunger also weakens the immune system. Deprived of the right nutrition, 
+            hungry children are especially vulnerable and become too weak to fight off disease and may die from common 
+            infections like measles and diarrhoea. Each year, almost 7 million children die before reaching the age of five; 
+            malnutrition is a key factor in over a third of these deaths. <a href="http://www.wfp.org" target="_blank">Visit Us</a>
+        </p>
+    </div>
+</div>
+
+<!-- Tabs Slide In Down End -->
+
+<!-- 
+================================================================================
+End Of Component Test Code
+-->
+   
+</div>   
+    
+<!-- ==================
+    JAVASCRIPT START 
+======================= -->
+<script src="../_assets/js/jquery.js"></script>
+<script src="../_assets/js/decorator/dc.tab.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    
+    //STATiC TABS:
+    //accepted type: slideLeft, slideRight, slideUp, slideDown
+    //accepted trigger: click, mouseover
+    
+    $('.hover-left').dcTab({
+        effect: {type: "slideLeft"},
+        trigger: "mouseover"
+    });
+    
+    $('.hover-right').dcTab({
+        effect: {type: "slideRight"},
+        trigger: "mouseover"
+    });
+    
+    $('.hover-up').dcTab({
+        effect: {type: "slideUp"},
+        trigger: "mouseover"
+    });
+    
+    $('.hover-down').dcTab({
+        effect: {type: "slideDown"},
+        trigger: "mouseover"
+    });
+    
+    //ajax does not accept type yet
+    $(".tabs-two").dcTab({ajax: true});
+    
+});
+
+</script>
+<!-- ==================
+     JAVASCRIPT END
+======================= -->
+</body>
+</html>

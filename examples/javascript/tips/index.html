@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decorator Javascript Components</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- ===== CSS START ==== -->
+<link href="../_assets/css/decorator.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<!-- ===== CSS END ==== -->
+</head>
+<body>
+<div class="wrapper">    
+<h1 class="tst-title">Javascript: ToolTips</h1>
+
+<!-- 
+Start OF Component Test Code 
+================================================================================
+-->
+
+<button type="button" class="btn" data-placement="left" title="Tooltip Left">Tooltip Left</button>
+
+<button type="button" class="btn btn-hoog"  data-placement="top" title="Tooltip on top with more text">Tooltip Top</button>
+
+<button type="button" class="btn"  data-placement="bottom" title="Tooltip Bottom">Tooltip Bottom</button>
+
+<button type="button" class="btn btn-hoog"  data-placement="right" title="Tooltip Right">Tooltip Right</button>
+
+<a href="#" class="test" data-placement="top" title="Offset Tip Test">Offset Tip Test</a>
+
+<br>
+
+<input class="tip" data-placement="bottom" title="Username must not be empty " placeholder="User Name" />
+<input class="tip" data-placement="bottom" title="Password must not be empty " placeholder="Password" />
+
+<!-- 
+================================================================================
+End Of Component Test Code
+-->
+   
+</div>   
+    
+<!-- ==================
+    JAVASCRIPT START 
+======================= -->
+<script src="../_assets/js/jquery.js"></script>
+<script src="../_assets/js/decorator/dc.tip.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    
+    $('.btn').dcTip({background: "red"});
+    
+    $('.test').dcTip({background: "blue", color: "white"});
+    
+    $('.tip').dcTip({trigger: "focus"});
+});
+
+</script>
+<!-- ==================
+     JAVASCRIPT END
+======================= -->
+</body>
+</html>

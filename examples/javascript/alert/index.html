@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decorator Javascript Components</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- ===== CSS START ==== -->
+<link href="../_assets/css/decorator.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<!-- ===== CSS END ==== -->
+</head>
+<body>
+<div class="wrapper">    
+<h1 class="tst-title">JavaScript Alerts</h1>
+<!-- 
+Start OF Component Test Code 
+================================================================================
+-->
+
+<a class="btn one" data-content="Hi there this is success MSG">Success Alert</a>
+
+<a class="btn two" data-content="Hi there this is success MSG">Info Alert</a>
+
+<a class="btn three" data-content="Hi there this is success MSG">Error Alert</a>
+
+<a class="btn four" data-content="Hi there this is success MSG">Warning Alert</a>
+
+<!-- 
+================================================================================
+End Of Component Test Code
+-->
+   
+</div>   
+    
+<!-- ==================
+    JAVASCRIPT START 
+======================= -->
+<script src="../_assets/js/jquery.js"></script>
+<script src="../_assets/js/decorator/dc.alert.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    
+    
+    $(".one").dcAlert({
+        prepend: "wrapper",
+        type: "success",
+        msg: "This is success overwrite..."
+    });
+    
+    $(".two").dcAlert({
+        prepend: "wrapper",
+        type: "info",
+        efx : "slideDown"
+    });
+    
+    $(".three").dcAlert({
+        prepend: "wrapper",
+        type: "danger",
+    });
+    
+    $(".four").dcAlert({
+        prepend: "wrapper",
+        type: "warning",
+    });
+    
+});
+
+</script>
+
+<!-- ==================
+     JAVASCRIPT END
+======================= -->
+</body>
+</html>

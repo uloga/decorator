@@ -1,0 +1,43 @@
+/*
+Software: Decorator Codable Front End FW 1.0
+Author: Alan Museljic "Uloga"
+Author URI: http://uloga.net
+Twitter: https://twitter.com/_uloga
+Facebook: https://facebook.com/webrebelz
+Under GPL License: http://www.gnu.org/licenses/gpl.html
+*/
+body{
+    background: #fafafa;
+    font-family: Arial;
+    line-height: 21px;
+}
+.width{
+    width: 960px;
+    margin: 0 auto;
+}
+.navbar .search-form{
+    border: 1px solid #c3c3c3;
+    margin-top: -1px;
+}
+/* wrapper */
+.wrapper{
+    margin: 80px auto;
+}
+
+/* responsive edits */
+
+@media (max-width: 768px){
+    
+    .navbar .search-form {
+        border: none;
+        margin: 15px 0;
+    }
+    .navbar .search-form input{
+        border: 1px solid #ccc;
+    }
+    .navbar .search-form .button {
+        border: 1px solid #ccc;
+        position: relative;
+        right: 1px;
+    }
+}

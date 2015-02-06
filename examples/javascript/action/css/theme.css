@@ -1,0 +1,95 @@
+/*
+Software: Decorator Blank Theme
+Author: Alan Museljic "Uloga"
+Author URI: http://uloga.net
+Twitter: https://twitter.com/alanuloga
+Facebook: https://facebook.com/webrebelz
+Under GPL License: http://www.gnu.org/licenses/gpl.html
+*/
+body{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: #555;
+    font-size: 13px;
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    display: block;
+    height: 1000px;
+    padding: 20px 80px;
+}
+.wrapper .tst-title{
+    font-size: 26px;
+    color: #3D3333;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: Arial;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+.example h2 {
+    font-size: 15px;
+    font-family: Arial;
+    color: #555;
+    float: left;
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ccc;
+    font-weight: bolder;
+}
+.example h2 span{
+    color: #EE4D3B;
+}
+.content, .code {
+    float: left;
+    width: 100%;
+    padding: 25px 0;
+}
+
+/* footer */
+.footer{
+    padding-top: 10px;
+    border-top: 1px solid #e3e3e3;
+    width: 100%;
+    float: left;
+}
+.footer .list{
+    margin: 0;
+    padding: 0;
+}
+.footer .list-inline li{
+    float: left;
+    margin-bottom: 0;
+    margin-left: 15px;
+    list-style: none;
+    display: inline;
+}
+
+.footer .list-inline li i{
+    margin-top: 0;
+    vertical-align: text-bottom;
+}
+
+.footer .list-inline:first-child, .list-inline .first{
+    margin-left: 0 !important;
+}
+
+.footer .list-inline li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #057ed0;
+}
+.footer .list-inline li a:hover{
+    color: #444;
+    text-decoration: underline;
+}
+
+/* component based edits */
+.action-wrap{
+    margin-right: 55px;
+}
