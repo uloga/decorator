@@ -471,7 +471,7 @@ input:focus, input:active, textarea:focus, textare:active {
     background-color: #eee !important;
 }
 .top-bar-icon [class^="bi_"], [class*=" bi_"] {
-   background-image: url("../img/big/glyph-big-white.png");
+   background-image: url("../sprites/big/glyph-big-white.png");
    width: 30px;
    height: 28px;
    line-height: 28px;
@@ -483,7 +483,7 @@ input:focus, input:active, textarea:focus, textare:active {
     width: 24px;
 }
 .top-bar-icon li a:hover > i, .top-bar-icon li .active > i{
-    background-image: url("../img/big/glyph-big-gray-blue-light.png");
+    background-image: url("../sprites/big/glyph-big-gray-blue-light.png");
 }
 /* top bar search form and brand edit*/
 .top-bar-icon .brand{
@@ -517,7 +517,7 @@ input:focus, input:active, textarea:focus, textare:active {
     background-color: #eee !important;
 }
 .left-bar-icon [class^="bi_"], [class*=" bi_"] {
-   background-image: url("../img/big/glyph-big-white.png");
+   background-image: url("../sprites/big/glyph-big-white.png");
    width: 30px;
    height: 28px;
    line-height: 28px;
@@ -526,7 +526,7 @@ input:focus, input:active, textarea:focus, textare:active {
    margin: 0 auto;
 }
 .left-bar-icon li a:hover > i, .left-bar-icon li .active > i{
-    background-image: url("../img/big/glyph-big-gray-blue-light.png");
+    background-image: url("../sprites/big/glyph-big-gray-blue-light.png");
 }
 .left-bar-icon li a .bi_fire, .left-bar-icon li .bi_calendar{
     width: 24px;
