@@ -8,4 +8,4 @@ Decorator is based on HTML, CSS and Javascript. It includes lot's of ready to us
 Getting Started:
 -------
 
-[Decorator Getting Started](http://decorator.codable.org/getit) 
+For more info please check out: [Decorator Getting Started](http://decorator.codable.org/getit) 
