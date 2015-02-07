@@ -1473,7 +1473,7 @@ a .label{
 }
 .media-grid li{
     width: 18.4%;
-    margin: 0 3% 3% 0;
+    margin: 0 2% 2% 0;
     float: left;
 }
 .media-grid li .link, .media-grid li a img{
@@ -1494,38 +1494,38 @@ a .label{
     width: 100%;
 }
 .media-grid-wide li{
-    width: 31.333333%;
-    margin: 0 3% 3% 0;
+    width: 32%;
+    margin: 0 2% 2% 0;
     float: left;
     background: #eee;
 }
 /* grid edits */
 .grid2 li{
-    width: 48.5%;
+    width: 49%;
 }
 .grid2 li:nth-child(2n+0){
      margin-right: 0;
 }
 .grid3 li{
-    width: 31.333333%;
+    width: 32%;
 }
 .grid3 li:nth-child(3n+0){
      margin-right: 0;
 }
 .grid4 li{
-    width: 22.73333333%;
+    width: 23.5%;
 }
 .grid4 li:nth-child(4n+0){
      margin-right: 0;
 }
 .grid5 li{
-    width: 17.6%;
+    width: 18.4%;
 }
 .grid5 li:nth-child(5n+0){
      margin-right: 0;
 }
 .grid6 li{
-    width: 14.15000000%;
+    width: 15%;
 }
 .grid6 li:nth-child(6n+0){
      margin-right: 0;
@@ -3047,20 +3047,6 @@ body.modal-active{
         display: none;
         float: left;
         width: 100%;
-    }
-    .navbar .responsive-open{
-        max-height: 340px;
-        overflow-y: auto;
-    }
-    .responsive-open::-webkit-scrollbar {
-        width: 6px;
-    }
-
-    .responsive-open::-webkit-scrollbar-track {
-        background: #bbb;
-    }
-    .responsive-open::-webkit-scrollbar-thumb {
-        background: #999;
     }
     .navbar .search-form{
         width: 100%;
