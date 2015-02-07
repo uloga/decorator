@@ -1005,7 +1005,6 @@ form .button{
 .table-actions a{
     font-size: 13px;
     color: #444;
-    float: left;
     margin-right: 6px !important;
 }
 .table-actions a:last-child{
