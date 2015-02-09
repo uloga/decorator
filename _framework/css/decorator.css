@@ -1871,27 +1871,27 @@ a .label{
 }
 
 /* ----- decorator color paletts -------- */
-.default{
+.default, .label-default{
     background-color: #bbb !important;
     color: #fff !important;
     border-color: #bbb;
 }
-.success{
+.success, .label-success{
     background-color: #52AD52 !important;
     color: #fff !important;
     border-color: #52AD52;
 }
-.warning{
+.warning, .label-warning{
     background-color: #F3AB44 !important;
     color: #fff !important;
     border-color: #F3AB44;
 }
-.danger{
+.danger, .label-danger{
     background-color: #EE4D3B !important;
     color: #fff !important;
     border-color: #EE4D3B;
 }
-.info{
+.info, .label-info{
     background-color: #00AFF0 !important;
     color: #fff !important;
     border-color: #00AFF0;
