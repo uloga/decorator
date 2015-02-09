@@ -1871,6 +1871,11 @@ a .label{
 }
 
 /* ----- decorator color paletts -------- */
+.default{
+    background-color: #bbb !important;
+    color: #fff !important;
+    border-color: #bbb;
+}
 .success{
     background-color: #52AD52 !important;
     color: #fff !important;
