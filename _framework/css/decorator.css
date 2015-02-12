@@ -1508,6 +1508,11 @@ a .label{
     float: left;
     background: #eee;
 }
+.media-grid-wide li *{
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;	
+}
 /* grid edits */
 .grid2 li{
     width: 49%;
@@ -1543,9 +1548,6 @@ a .label{
     width: 100%;
     float: left;
     padding: 10px 15px 15px 15px;
-    -webkit-box-sizing: border-box !important;
-    -moz-box-sizing: border-box !important;
-    box-sizing: border-box !important;
 }
 .media-grid-wide li p{
     margin: 2px 0;
