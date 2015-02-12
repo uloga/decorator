@@ -77,6 +77,16 @@ textarea {
 input:focus, input:active, textarea:focus, textare:active {
     outline: 0;
 }
+.box-sizing{
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+.box-sizing-all *{
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
 .clear{
     clear: both;
 }
@@ -471,7 +481,7 @@ input:focus, input:active, textarea:focus, textare:active {
     background-color: #eee !important;
 }
 .top-bar-icon [class^="bi_"], [class*=" bi_"] {
-   background-image: url("../img/big/glyph-big-white.png");
+   background-image: url("../sprites/big/glyph-big-white.png");
    width: 30px;
    height: 28px;
    line-height: 28px;
@@ -483,7 +493,7 @@ input:focus, input:active, textarea:focus, textare:active {
     width: 24px;
 }
 .top-bar-icon li a:hover > i, .top-bar-icon li .active > i{
-    background-image: url("../img/big/glyph-big-gray-blue-light.png");
+    background-image: url("../sprites/big/glyph-big-gray-blue-light.png");
 }
 /* top bar search form and brand edit*/
 .top-bar-icon .brand{
@@ -517,7 +527,7 @@ input:focus, input:active, textarea:focus, textare:active {
     background-color: #eee !important;
 }
 .left-bar-icon [class^="bi_"], [class*=" bi_"] {
-   background-image: url("../img/big/glyph-big-white.png");
+   background-image: url("../sprites/big/glyph-big-white.png");
    width: 30px;
    height: 28px;
    line-height: 28px;
@@ -526,7 +536,7 @@ input:focus, input:active, textarea:focus, textare:active {
    margin: 0 auto;
 }
 .left-bar-icon li a:hover > i, .left-bar-icon li .active > i{
-    background-image: url("../img/big/glyph-big-gray-blue-light.png");
+    background-image: url("../sprites/big/glyph-big-gray-blue-light.png");
 }
 .left-bar-icon li a .bi_fire, .left-bar-icon li .bi_calendar{
     width: 24px;
@@ -1005,7 +1015,6 @@ form .button{
 .table-actions a{
     font-size: 13px;
     color: #444;
-    float: left;
     margin-right: 6px !important;
 }
 .table-actions a:last-child{
@@ -1499,6 +1508,11 @@ a .label{
     float: left;
     background: #eee;
 }
+.media-grid-wide li *{
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;	
+}
 /* grid edits */
 .grid2 li{
     width: 49%;
@@ -1531,6 +1545,7 @@ a .label{
      margin-right: 0;
 }
 .media-grid-wide li .grid-data{
+    width: 100%;
     float: left;
     padding: 10px 15px 15px 15px;
 }
@@ -1872,22 +1887,27 @@ a .label{
 }
 
 /* ----- decorator color paletts -------- */
-.success{
+.default, .label-default{
+    background-color: #bbb !important;
+    color: #fff !important;
+    border-color: #bbb;
+}
+.success, .label-success{
     background-color: #52AD52 !important;
     color: #fff !important;
     border-color: #52AD52;
 }
-.warning{
+.warning, .label-warning{
     background-color: #F3AB44 !important;
     color: #fff !important;
     border-color: #F3AB44;
 }
-.danger{
+.danger, .label-danger{
     background-color: #EE4D3B !important;
     color: #fff !important;
     border-color: #EE4D3B;
 }
-.info{
+.info, .label-info{
     background-color: #00AFF0 !important;
     color: #fff !important;
     border-color: #00AFF0;
@@ -3047,6 +3067,20 @@ body.modal-active{
         display: none;
         float: left;
         width: 100%;
+    }
+    .navbar .responsive-open{
+        max-height: 340px;
+        overflow-y: auto;
+    }
+    .responsive-open::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .responsive-open::-webkit-scrollbar-track {
+        background: #bbb;
+    }
+    .responsive-open::-webkit-scrollbar-thumb {
+        background: #999;
     }
     .navbar .search-form{
         width: 100%;
