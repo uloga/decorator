@@ -77,6 +77,16 @@ textarea {
 input:focus, input:active, textarea:focus, textare:active {
     outline: 0;
 }
+.box-sizing{
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+.box-sizing-all *{
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
 .clear{
     clear: both;
 }
@@ -1530,8 +1540,12 @@ a .label{
      margin-right: 0;
 }
 .media-grid-wide li .grid-data{
+    width: 100%;
     float: left;
     padding: 10px 15px 15px 15px;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
 }
 .media-grid-wide li p{
     margin: 2px 0;
