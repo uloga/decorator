@@ -837,7 +837,7 @@ select, .select, .multi-select, .select-number{
 }
 form .button{
     height: 34px;
-    line-height: 23px;
+    line-height: 21px;
 }
 .search-form .button-right {
     border-left: none !important;
