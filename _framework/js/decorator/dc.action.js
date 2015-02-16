@@ -24,7 +24,7 @@
 	};
 	
 	Action.about = {
-		component: "Decorator Actions",
+		component: "Decorator Actions", 
 		version  : "1.0",
 		author   : "Alan Museljic",
 		website  : "http://www.uloga.net",
