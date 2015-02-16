@@ -18,7 +18,7 @@
 		}, options);
 		
 		Popover.process($(this), settings);
-        return this;
+        	return this;
     };
 	
 	Popover.about = {
@@ -118,14 +118,15 @@
 	Popover.populate = function($this, settings){
 		
 		var arrows = $this.parent().find(".pop-arrow").length,
-			inner  = $this.parent().find(settings.selector+settings.inner),
-			placement = ($this.attr("data-placement")) 
-						? $this.attr("data-placement")
-						: "top",
+			inner  	  = 	$this.parent().find(settings.selector+settings.inner),
+			placement = 	($this.attr("data-placement")) 
+					? $this.attr("data-placement")
+					: "top",
+					
 			arrow = '<div class="pop-arrow">'+
-					'<span class="front">'+
-					'</span><span class="back"></span>'+
-					'</div>';
+				'<span class="front">'+
+				'</span><span class="back"></span>'+
+				'</div>';
 				
 		if(arrows <= 0 || settings.ajax === true){
 			
@@ -145,20 +146,20 @@
 	
 	Popover.build = function($this, settings){
 		
-		var parent   = $this.parent(),
-			wrapped  = parent.hasClass(settings.wrapper); //bool..
+	var 	parent   = $this.parent(),
+		wrapped  = parent.hasClass(settings.wrapper); //bool..
 		    
-		var title    = ($this.attr(settings.title)) 
-						? '<h1 class="pop-title">'+$this.attr(settings.title)+'</h1>' 
-						: '',
+	var 	title    = ($this.attr(settings.title)) 
+					? '<h1 class="pop-title">'+$this.attr(settings.title)+'</h1>' 
+					: '',
 							
-			content  = ($this.attr(settings.data))
-						? '<div class="'+settings.content+'">'+$this.attr(settings.data)+'</div>'
-						: ($this.attr("href")) 
-						? '<div class="'+settings.content+'"></div>'
-						: "null",
+		content  = ($this.attr(settings.data))
+					? '<div class="'+settings.content+'">'+$this.attr(settings.data)+'</div>'
+					: ($this.attr("href")) 
+					? '<div class="'+settings.content+'"></div>'
+					: "null",
 			
-			popover  = '<div class="'+settings.wrapper+'"></div>';
+		popover  = '<div class="'+settings.wrapper+'"></div>';
 			
 			
 		//clean up selectors...	
@@ -183,21 +184,21 @@
 			  
 				//Beta: Simple ajax error info, will be departed 
 				
-				content  = '<div class="'+settings.content+'">'+
-						   'Error:Click F12 For More Info'+
-						   '</div>';
+				content = 	'<div class="'+settings.content+'">'+
+						'Error:Click F12 For More Info'+
+						'</div>';
 					   
-			    var info =  'You must specify a path when using ajax requests'+
-							' eg: href="your-path" or data-content="your-path"';
+			var 	inf	=  	'You must specify a path when using ajax requests'+
+						' eg: href="your-path" or data-content="your-path"';
 						
 				console.log(info);  
 				
 			}
 			
-			var	inner = '<div class="'+settings.inner+'"><div class="pop-padder">'+
-						 title+
-					     content+
-					    '</div></div>';
+			var	inner 	= 	'<div class="'+settings.inner+'"><div class="pop-padder">'+
+							title+
+					     		content+
+					    	'</div></div>';
 					
 			$this.wrap(popover);
 			$this.parent().append(inner);
@@ -219,14 +220,14 @@
 		$(document).mouseup(function(e) {
 			
 			$(settings.selector+settings.open)
-					  .removeClass(settings.open);
+				.removeClass(settings.open);
 				 
 			e.preventDefault();
 			
 		});
 		
 		$(settings.selector+settings.inner)
-				  .mouseup(function(){ return false; });
+			.mouseup(function(){ return false; });
 		
 	};
 	
@@ -239,8 +240,8 @@
 	
 	Popover.open =  function($this, settings){
 		
-		var pop = $this.parent().find(settings.selector+settings.inner),
-			parent = $this.parent();
+	var 	pop 	= $this.parent().find(settings.selector+settings.inner),
+		parent 	= $this.parent();
 		
 		Popover.close(parent, settings);
 		
@@ -255,7 +256,8 @@
 	Popover.ajax = function($this, settings){
 		
 		var inner = $this.parent()
-						 .find(settings.selector+settings.content),
+				.find(settings.selector+settings.content),
+				
 			pop   = $this.parent().find(settings.selector+settings.inner),				 
 			path  = ($this.attr(settings.data))
 					? $this.attr(settings.data)
@@ -289,8 +291,8 @@
 			
 			pop     = $this.parent().find(settings.selector+settings.inner),
 			d_attr  = $this.attr("data-placement"),
-					  position =( typeof d_attr !== typeof undefined && d_attr !== false) 
-								 ? d_attr : "top";
+					position =( typeof d_attr !== typeof undefined && d_attr !== false) 
+						 ? d_attr : "top";
 								
 		pop_w    = pop.outerWidth(),
 		pop_h    = pop.outerHeight(),
