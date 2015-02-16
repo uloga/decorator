@@ -74,7 +74,7 @@
 
 				$this.on("focusout", function(e) {
 
-					$this.parent()
+					$this.parent() 
 						.find(settings.selector + settings.tip_class)
 						.remove();
 					e.preventDefault();
