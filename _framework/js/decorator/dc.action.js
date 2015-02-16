@@ -149,10 +149,10 @@
 	
 	Action.style = function(elem, settings){
 		
-		var parent  = elem.parent(),
-			dropper = parent.find(settings.selector+settings.dropDown),
-			wrapper = "<div class='"+settings.dropWrap+"'></div>",
-			elem_h  = $(elem).outerHeight();
+	var  	parent  = elem.parent(),
+		dropper = parent.find(settings.selector+settings.dropDown),
+		wrapper = "<div class='"+settings.dropWrap+"'></div>",
+		elem_h  = $(elem).outerHeight();
 		
 		dropper.wrapAll(wrapper);
 		dropper.css({display: "block",position: "relative"});
