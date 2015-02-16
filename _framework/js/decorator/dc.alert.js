@@ -29,7 +29,7 @@
 		version  : "1.0",
 		author   : "Alan Museljic",
 		website  : "http://www.uloga.net",
-		licence	 : "MIT",
+		licence	 : "GPL",
 		copyright: "codable.org"
 	};
 	
@@ -38,13 +38,13 @@
 	
 		elem.on("click", function(e){
 
-				var $this = $(this);
+			var $this = $(this);
 
-				Alert.open($this, settings);
+			lert.open($this, settings);
 
-				e.preventDefault();
+			e.preventDefault();
 				
-				Alert.close(settings);
+			Alert.close(settings);
 		});
 		
 	};
@@ -83,14 +83,14 @@
 	Alert.template = function(settings, elem){
 		
 		var data     = (settings.msg) 
-						? settings.msg 
-						: elem.attr("data-content");
+				? settings.msg 
+				: elem.attr("data-content");
 					
 		var template = '<div class="'+settings.alert+ " " +
-						settings.alert+"-"+settings.type + '">' + 
-					    data+
-					   '<a class="'+settings.close+'"href="#">X</a>'+
-					   '</div>';
+				settings.alert+"-"+settings.type + '">' + 
+				data+
+				'<a class="'+settings.close+'"href="#">X</a>'+
+				'</div>';
 		return template;
 		
 	};
@@ -98,8 +98,8 @@
 	Alert.style = function(elem, settings){
 		
 		var template = (settings.template) 
-						? settings.template 
-						: Alert.template(settings, elem),
+				? settings.template 
+				: Alert.template(settings, elem),
 			width;
 		
 		if(settings.append){
