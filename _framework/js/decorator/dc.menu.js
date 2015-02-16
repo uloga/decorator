@@ -23,7 +23,7 @@
 		version  : "1.0",
 		author   : "Alan Museljic",
 		website  : "http://www.uloga.net",
-		licence	 : "MIT",
+		licence	 : "GPL",
 		copyright: "codable.org"
 	};
 	
@@ -39,7 +39,7 @@
 			old    = $(navbar).html(),
 			search = $(navbar).find('form').remove(),
 			brand  = (settings.brand) ? $(navbar).find("."+settings.brand).remove() 
-									  :	$(navbar).find('.brand').remove(),
+						  : $(navbar).find('.brand').remove(),
 			inner  = $(navbar).html(),
 			action = (settings.icon_open !=="") 
 					? '<a href="#" class="responsive-action res-open">'+settings.icon_open+'</a>'
@@ -77,10 +77,6 @@
 		});
 	};
 	
-	
-	Menu.template = function(navbar, settings){
-		
-	};
 	
 	Menu.trigger = function(navbar, settings){
 		
