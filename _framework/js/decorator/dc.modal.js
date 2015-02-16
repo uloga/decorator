@@ -101,10 +101,10 @@
 		}
 		
 		$(settings.selector+settings.inner)
-					.click(function(e){ 
+			.click(function(e){ 
 				
-				    e.preventDefault();
-					e.stopPropagation();
+			e.preventDefault();
+			e.stopPropagation();
 				
 		});
 		
@@ -207,21 +207,21 @@
 		}	
 		if(title && header_ex.length < 1){
 			header  =	'<div class="'+settings.header+'">'+
-							new_title+
-						'</div>';
+						new_title+
+					'</div>';
 		}else if(header_ex.length > 0){
 			header  =	'<div class="'+settings.header+'">'+
-							new_title+
-							$(header_ex).html() +
-						'</div>';
+						new_title+
+						$(header_ex).html() +
+					'</div>';
 		}else{
 			header = "";
 		}
 		
 		if(footer_ex.length > 0){
 			footer =	'<div class="'+settings.footer+'">'+
-							$(footer_ex).html() +
-						'</div>';
+						$(footer_ex).html() +
+					'</div>';
 		}else{
 			footer = "";
 		}
@@ -246,35 +246,35 @@
 			
 			content  = Modal.ajax($this, settings);
 			
-			template =  '<div class="clearfix '+settings.wrapper+
-						' ' + settings.open+ ' ' + modal_cls +'">'+
-						'<div class="'+settings.background+'"></div>' +
-			            '<div class="'+settings.inner+'">' +
-								content +
-						'<span class="modal-x '+settings.close+'">X</span>' +
-						'</div>' +
-						'</div>';
+			template =  	'<div class="clearfix '+settings.wrapper+
+					' ' + settings.open+ ' ' + modal_cls +'">'+
+					'<div class="'+settings.background+'"></div>' +
+			            	'<div class="'+settings.inner+'">' +
+						content +
+					'<span class="modal-x '+settings.close+'">X</span>' +
+					'</div>' +
+					'</div>';
 		}else{
 		
-			template =  '<div class="clearfix '+settings.wrapper+
-						' ' + settings.open+ ' ' + modal_cls +'">'+
-						'<div class="'+settings.background+'"></div>' +
-			            '<div class="'+settings.inner+'">' +
-								header +
-						'<div class="'+settings.content+'">'+
-								content +
-						'</div>' +
-						        footer +
-						'<span class="modal-x '+settings.close+'">X</span>' +
-						'</div>' +
-						'</div>';
+			template =  	'<div class="clearfix '+settings.wrapper+
+					' ' + settings.open+ ' ' + modal_cls +'">'+
+					'<div class="'+settings.background+'"></div>' +
+			            	'<div class="'+settings.inner+'">' +
+						header +
+					'<div class="'+settings.content+'">'+
+						content +
+					'</div>' +
+						footer +
+					'<span class="modal-x '+settings.close+'">X</span>' +
+					'</div>' +
+					'</div>';
 		}
 		
 		$('body').prepend(template);
-		var modal_h =   settings.style.height,
+		var 	modal_h	=   	settings.style.height,
 			scroll	=	$(settings.selector+settings.content).height() + 
-						$(settings.selector+settings.header).height() + 
-						$(settings.selector+settings.footer).height();
+					$(settings.selector+settings.header).height() + 
+					$(settings.selector+settings.footer).height();
 		
 		if(modal_h < scroll){
 			$(settings.selector+settings.inner).addClass("modal-overflow");
