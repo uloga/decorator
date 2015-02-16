@@ -28,7 +28,7 @@
 		version  : "1.0",
 		author   : "Alan Museljic",
 		website  : "http://www.uloga.net",
-		licence	 : "MIT",
+		licence	 : "GPL",
 		copyright: "codable.org"
 	};
 	
