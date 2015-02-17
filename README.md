@@ -28,6 +28,10 @@ Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
 
+| Thumbnail       | Name           | Link  |
+| ------------- |:-------------:| -----:|
+| <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/one.jpg"></a>     | One Column |<a class="grid-title" href="http://codable.org/templates/one/" target="_blank">View Example</a></p>0 |
+
 <ul class="media-grid-wide grid3" style="list-style-type: none !important;">
 			
 		<!-- List node 1 start -->
