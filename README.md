@@ -30,7 +30,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| ![alt text](http://decorator.codable.org/img/examples/one.jpg?raw=true | width = 100px "One Column Layout")     | right-aligned | $1600 |
+| ![image](http://decorator.codable.org/img/examples/one.jpg?raw=true | width = 100px "One Column Layout")     | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
