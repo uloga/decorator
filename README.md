@@ -24,6 +24,15 @@ $(document).ready(function(){
 </script>
   	
 ````
+Examples:
+----------
+Few examples included to get you started. Click on thumbnails to view live demo.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 
 For more info and examples please check out: [Decorator Dox](http://decorator.codable.org/getit) 
