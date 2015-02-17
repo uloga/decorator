@@ -32,7 +32,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 			
 		<!-- List node 1 start -->
 		<li>
-		    <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://codable.org/img/examples/one.jpg"></a>
+		    <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/img/examples/one.jpg"></a>
 		    <div class="grid-data">
 			<p><a class="grid-title" href="http://codable.org/templates/one/" target="_blank">One Column Responsive</a></p>
 			</div>
@@ -42,7 +42,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 			
 		<!-- List node 2 start -->
 		<li>
-		    <a class="link" href="http://codable.org/templates/two/" target="_blank"><img src="http://codable.org/img/examples/two.jpg"></a>
+		    <a class="link" href="http://codable.org/templates/two/" target="_blank"><img src="http://decorator.codable.org/img/examples/two.jpg"></a>
 		    <div class="grid-data">
 			<p><a class="grid-title" href="http://codable.org/templates/two/" target="_blank">Two Column Responsive</a></p>
 			</div>
@@ -52,7 +52,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 			
 		<!-- List node 3 start -->
 		<li>
-		    <a class="link" href="http://codable.org/templates/three/" target="_blank"><img src="http://codable.org/img/examples/three.jpg"></a>
+		    <a class="link" href="http://codable.org/templates/three/" target="_blank"><img src="http://decorator.codable.org/img/examples/three.jpg"></a>
 		    <div class="grid-data">
 			<p><a class="grid-title" href="http://codable.org/templates/three/" target="_blank">Three Column Responsive</a></p>
 			</div>
@@ -62,7 +62,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 			
 		<!-- List node 4 start -->
 		<li>
-		    <a class="link" href="http://codable.org/templates/grids/" target="_blank"><img src="http://codable.org/img/examples/grids.jpg"></a>
+		    <a class="link" href="http://codable.org/templates/grids/" target="_blank"><img src="http://decorator.codable.org/img/examples/grids.jpg"></a>
 		    <div class="grid-data">
 			<p><a class="grid-title" href="http://codable.org/templates/grids/" target="_blank">Responsive Grids</a></p>
 			</div>
@@ -72,7 +72,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 			
 		<!-- List node 5 start -->
 		<li>
-		    <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://codable.org/img/examples/admin.jpg"></a>
+		    <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://decorator.codable.org/img/examples/admin.jpg"></a>
 		    <div class="grid-data">
 			<p><a class="grid-title" href="http://codable.org/templates/admin/" target="_blank">Responsive Admin Layout</a></p>
 			</div>
