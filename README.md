@@ -27,12 +27,16 @@ $(document).ready(function(){
 Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
-
+<style>
+.grid3{
+list-style: none;
+}
+</style>
 <ul class="media-grid-wide grid3">
 			
 		<!-- List node 1 start -->
 		<li>
-		    <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/img/examples/one.jpg"></a>
+		    <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/one.jpg"></a>
 		    <div class="grid-data">
 			<p><a class="grid-title" href="http://codable.org/templates/one/" target="_blank">One Column Responsive</a></p>
 			</div>
