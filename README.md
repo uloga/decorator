@@ -37,6 +37,9 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 | <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://decorator.codable.org/img/examples/admin.jpg" width="180"></a>    | Responsive Admin Layout |<a class="grid-title" href="http://codable.org/templates/admin/" target="_blank">View Example</a></p> |
 
 
-
+What's Next:
+------------
+I'm currently working on angular js components as well as on new extensive and responsive documentation.
+Stay tuned by following the project here on github. 
 
 For more info and examples please check out: [Decorator Dox](http://decorator.codable.org/getit) 
