@@ -27,12 +27,8 @@ $(document).ready(function(){
 Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
-<style>
-.grid3{
-list-style: none;
-}
-</style>
-<ul class="media-grid-wide grid3">
+
+<ul class="media-grid-wide grid3" style="list-style: none;">
 			
 		<!-- List node 1 start -->
 		<li>
