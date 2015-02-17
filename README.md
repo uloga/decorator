@@ -30,9 +30,8 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| (https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")    | right-aligned | $1600 |
+
 
 
 For more info and examples please check out: [Decorator Dox](http://decorator.codable.org/getit) 
