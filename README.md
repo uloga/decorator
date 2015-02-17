@@ -37,7 +37,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 | <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://decorator.codable.org/img/examples/admin.jpg" width="180"></a>    | Responsive Admin Layout |<a class="grid-title" href="http://codable.org/templates/admin/" target="_blank">View Example</a></p> |
 
 
-What's Next:
+What's Next?
 ------------
 I'm currently working on angular js components as well as on a new extensive and responsive documentation website.
 Please stay tuned by following the project here on github. 
