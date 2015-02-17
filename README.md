@@ -42,4 +42,5 @@ What's Next:
 I'm currently working on angular js components as well as on a new extensive and responsive documentation website.
 Please stay tuned by following the project here on github. 
 
+
 For more info and examples please check out: [Decorator Dox](http://decorator.codable.org) 
