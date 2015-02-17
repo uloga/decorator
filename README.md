@@ -28,6 +28,6 @@ Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](http://decorator.codable.org/img/examples/one.jpg "One Column Layout")
 
 For more info and examples please check out: [Decorator Dox](http://decorator.codable.org/getit) 
