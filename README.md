@@ -28,64 +28,14 @@ Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
 
-| Thumbnail       | Name           | Link  |
+| Thumbnail     | Name       |Link  |
 | ------------- |:-------------:| -----:|
-| <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/one.jpg" width="80"></a>     | One Column |<a class="grid-title" href="http://codable.org/templates/one/" target="_blank">View Example</a></p>0 |
+| <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/one.jpg" width="180"></a>    | One Column Responsive Layout |<a class="grid-title" href="http://codable.org/templates/one/" target="_blank">View Example</a></p> |
+| <a class="link" href="http://codable.org/templates/two/" target="_blank"><img src="http://decorator.codable.org/img/examples/two.jpg" width="180"></a>    | Two Column Responsive Layout |<a class="grid-title" href="http://codable.org/templates/two/" target="_blank">View Example</a></p> |
+| <a class="link" href="http://codable.org/templates/three/" target="_blank"><img src="http://decorator.codable.org/img/examples/three.jpg" width="180"></a>    | Three Column Responsive Layout |<a class="grid-title" href="http://codable.org/templates/three/" target="_blank">View Example</a></p> |
+| <a class="link" href="http://codable.org/templates/grids/" target="_blank"><img src="http://decorator.codable.org/img/examples/grids.jpg" width="180"></a>    | Responsive Grids Layout |<a class="grid-title" href="http://codable.org/templates/grids/" target="_blank">View Example</a></p> |
+| <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://decorator.codable.org/img/examples/admin.jpg" width="180"></a>    | Responsive Admin Layout |<a class="grid-title" href="http://codable.org/templates/admin/" target="_blank">View Example</a></p> |
 
-<ul class="media-grid-wide grid3" style="list-style-type: none !important;">
-			
-		<!-- List node 1 start -->
-		<li tyle="list-style: none;">
-		    <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/one.jpg"></a>
-		    <div class="grid-data">
-			<p><a class="grid-title" href="http://codable.org/templates/one/" target="_blank">One Column Responsive</a></p>
-			</div>
-		</li>
-		<!-- List node 1 end -->	
-
-			
-		<!-- List node 2 start -->
-		<li>
-		    <a class="link" href="http://codable.org/templates/two/" target="_blank"><img src="http://decorator.codable.org/img/examples/two.jpg"></a>
-		    <div class="grid-data">
-			<p><a class="grid-title" href="http://codable.org/templates/two/" target="_blank">Two Column Responsive</a></p>
-			</div>
-		</li>
-		<!-- List node 2 end -->	
-
-			
-		<!-- List node 3 start -->
-		<li>
-		    <a class="link" href="http://codable.org/templates/three/" target="_blank"><img src="http://decorator.codable.org/img/examples/three.jpg"></a>
-		    <div class="grid-data">
-			<p><a class="grid-title" href="http://codable.org/templates/three/" target="_blank">Three Column Responsive</a></p>
-			</div>
-		</li>
-		<!-- List node 3 end -->	
-
-			
-		<!-- List node 4 start -->
-		<li>
-		    <a class="link" href="http://codable.org/templates/grids/" target="_blank"><img src="http://decorator.codable.org/img/examples/grids.jpg"></a>
-		    <div class="grid-data">
-			<p><a class="grid-title" href="http://codable.org/templates/grids/" target="_blank">Responsive Grids</a></p>
-			</div>
-		</li>
-		<!-- List node 4 end -->	
-
-			
-		<!-- List node 5 start -->
-		<li>
-		    <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://decorator.codable.org/img/examples/admin.jpg"></a>
-		    <div class="grid-data">
-			<p><a class="grid-title" href="http://codable.org/templates/admin/" target="_blank">Responsive Admin Layout</a></p>
-			</div>
-		</li>
-		<!-- List node 5 end -->	
-
-
-		   
-		</ul>
 
 
 
