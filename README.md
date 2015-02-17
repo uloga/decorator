@@ -28,7 +28,7 @@ Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
 
-| Thumbnail     | Name       | Link       
+| Thumbnail     | Description       | Link       
 | ------------- |:-------------:|:-----:|
 | <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/one.jpg" width="180"></a>    | One Column Responsive Layout |<a class="grid-title" href="http://codable.org/templates/one/" target="_blank">View Example</a></p> |
 | <a class="link" href="http://codable.org/templates/two/" target="_blank"><img src="http://decorator.codable.org/img/examples/two.jpg" width="180"></a>    | Two Column Responsive Layout |<a class="grid-title" href="http://codable.org/templates/two/" target="_blank">View Example</a></p> |
