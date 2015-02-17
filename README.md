@@ -28,11 +28,60 @@ Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| ![image](http://decorator.codable.org/img/examples/one.jpg?raw=true | width = 100px "One Column Layout")     | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+<ul class="media-grid-wide grid3">
+			
+		<!-- List node 1 start -->
+		<li>
+		    <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://codable.org/img/examples/one.jpg"></a>
+		    <div class="grid-data">
+			<p><a class="grid-title" href="http://codable.org/templates/one/" target="_blank">One Column Responsive</a></p>
+			</div>
+		</li>
+		<!-- List node 1 end -->	
+
+			
+		<!-- List node 2 start -->
+		<li>
+		    <a class="link" href="http://codable.org/templates/two/" target="_blank"><img src="http://codable.org/img/examples/two.jpg"></a>
+		    <div class="grid-data">
+			<p><a class="grid-title" href="http://codable.org/templates/two/" target="_blank">Two Column Responsive</a></p>
+			</div>
+		</li>
+		<!-- List node 2 end -->	
+
+			
+		<!-- List node 3 start -->
+		<li>
+		    <a class="link" href="http://codable.org/templates/three/" target="_blank"><img src="http://codable.org/img/examples/three.jpg"></a>
+		    <div class="grid-data">
+			<p><a class="grid-title" href="http://codable.org/templates/three/" target="_blank">Three Column Responsive</a></p>
+			</div>
+		</li>
+		<!-- List node 3 end -->	
+
+			
+		<!-- List node 4 start -->
+		<li>
+		    <a class="link" href="http://codable.org/templates/grids/" target="_blank"><img src="http://codable.org/img/examples/grids.jpg"></a>
+		    <div class="grid-data">
+			<p><a class="grid-title" href="http://codable.org/templates/grids/" target="_blank">Responsive Grids</a></p>
+			</div>
+		</li>
+		<!-- List node 4 end -->	
+
+			
+		<!-- List node 5 start -->
+		<li>
+		    <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://codable.org/img/examples/admin.jpg"></a>
+		    <div class="grid-data">
+			<p><a class="grid-title" href="http://codable.org/templates/admin/" target="_blank">Responsive Admin Layout</a></p>
+			</div>
+		</li>
+		<!-- List node 5 end -->	
+
+
+		   
+		</ul>
 
 
 
