@@ -28,10 +28,10 @@ Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
 
-<ul class="media-grid-wide grid3" style="list-style: none;">
+<ul class="media-grid-wide grid3" style="list-style-type: none !important;">
 			
 		<!-- List node 1 start -->
-		<li>
+		<li tyle="list-style: none;">
 		    <a class="link" href="http://codable.org/templates/one/" target="_blank"><img src="http://decorator.codable.org/img/examples/one.jpg"></a>
 		    <div class="grid-data">
 			<p><a class="grid-title" href="http://codable.org/templates/one/" target="_blank">One Column Responsive</a></p>
