@@ -26,4 +26,4 @@ $(document).ready(function(){
 ````
 
 
-For more info please check out: [Decorator Dox](http://decorator.codable.org) 
+For more info and examples please check out: [Decorator Dox](http://decorator.codable.org/getit) 
