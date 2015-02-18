@@ -27,6 +27,29 @@ $(document).ready(function(){
 </script>
   	
 ````
+IE8 Known Issues: grid system fix
+-----------
+| Grid System  |  Selector |  jQuery Fix | 
+| ------------- |:-------------|:-----|
+| Two Column | grid2 | $('.grid2 li:nth-child(2n+0)').css({"margin-right": "0"});
+| Three Column | grid3 | $('.grid3 li:nth-child(3n+0)').css({"margin-right": "0"});
+| Four Column | grid4 | $('.grid4 li:nth-child(4n+0)').css({"margin-right": "0"});
+| Five Column | grid5 | $('.grid5 li:nth-child(5n+0)').css({"margin-right": "0"});
+| Six Column | grid5 | $('.grid6 li:nth-child(6n+0)').css({"margin-right": "0"});
+
+Code Example:
+***
+```javascript
+<script type='text/javascript'>
+
+$(document).ready(function(){
+    $('.grid3 li:nth-child(3n+0)').css({"margin-right": "0"});
+});
+  	
+</script>
+```
+
+
 Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
