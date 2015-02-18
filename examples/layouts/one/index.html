@@ -195,6 +195,8 @@
     
    $(document).ready(function(){
         $('.navbar').dcMenu();
+        //ie 8 grid fix
+        $('.grid3 li:nth-child(3n+0)').css({"margin-right": "0"});
    });
 
 
