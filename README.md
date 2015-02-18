@@ -35,7 +35,7 @@ IE8 Known Issues: grid system fix
 | 3 Column | .grid3 | ``` $('.grid3 li:nth-child(3n+0)').css({"margin-right": "0"}); ```
 | 4 Column | .grid4 | ``` $('.grid4 li:nth-child(4n+0)').css({"margin-right": "0"}); ```
 | 5 Column | .grid5 | ``` $('.grid5 li:nth-child(5n+0)').css({"margin-right": "0"}); ```
-| 6 Column | .grid5 | ``` $('.grid6 li:nth-child(6n+0)').css({"margin-right": "0"}); ```
+| 6 Column | .grid6 | ``` $('.grid6 li:nth-child(6n+0)').css({"margin-right": "0"}); ```
 
 IE8 grid fix code example:
 ***
