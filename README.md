@@ -29,7 +29,7 @@ $(document).ready(function(){
 ````
 IE8 Known Issues: grid system fix:
 -----------
-NOTE: this is not the block system... it's a media (ul > li) list grid as in this example: http://codable.org/templates/grids/
+NOTE: this is not the block system... it's a (ul > li) list based grid as in this example: http://codable.org/templates/grids/
 ***
 | Grid System  |  Selector |  jQuery Fix | 
 | ------------- |:-------------|:-----|
