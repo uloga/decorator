@@ -5,7 +5,7 @@ Decorator, an easy to implement and use component based front-end framework for 
 Decorator is based on HTML, CSS and Javascript. It includes lot's of ready to use pre-built components. 
 
 
-<img src="http://decorator.codable.org/img/browsers.jpg" width="100%"></a>
+<img src="http://decorator.codable.org/img/browser.jpg" width="100%"></a>
 
 How To:
 -------
