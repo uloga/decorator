@@ -65,6 +65,17 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 | <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://decorator.codable.org/img/examples/admin.jpg" width="180"></a>    | Responsive Admin Layout |<a class="grid-title" href="http://codable.org/templates/admin/" target="_blank">View Example</a></p> |
 
 
+Freebies:
+------
+
+| Thumbnail     | Description       | Demo       
+| ------------- |:-------------:|:-----:|
+| <a class="link" href="http://portfolio.codable.org/" target="_blank"><img src="http://decorator.codable.org/img/portfolio.png" width="200"></a>    | One Page Responsive Portfolio Template |<a class="grid-title" href="http://portfolio.codable.org/" target="_blank">View Demo</a></p> |
+| <a class="link" href="http://start.codable.org/" target="_blank"><img src="http://decorator.codable.org/img/startup.jpg" width="200"></a>    | Responsive 5 page Startup Template |<a class="grid-title" href="http://start.codable.org/" target="_blank">View Demo</a></p> |
+| <a class="link" href="http://blog.codable.org/" target="_blank"><img src="http://decorator.codable.org/img/parallex.jpg" width="200"></a>    | 6 Page Responsive Parallax Template |<a class="grid-title" href="http://blog.codable.org/" target="_blank">View Demo</a></p> |
+
+
+
 What's Next?
 ------------
 I'm currently working on angular js components as well as on a new extensive and responsive documentation website.
