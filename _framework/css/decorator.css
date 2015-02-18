@@ -65,7 +65,7 @@ a {
 }
 a:focus, 
 a:active{
-    outline: 0 !Important;
+    outline: 0 !important;
 }
 textarea {
     margin-bottom: 10px;
