@@ -139,9 +139,7 @@ textare:active {
 }
 .inline {
     float: left;
-    display: inline !important;
-    width: auto !important;
-    margin-right: 10px;
+    display: inline;
 }
 .opec{
    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
