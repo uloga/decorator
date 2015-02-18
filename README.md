@@ -40,6 +40,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 What's Next?
 ------------
 I'm currently working on angular js components as well as on a new extensive and responsive documentation website.
+Next step after angular.js is Bower, SASS and LESS support.
 Please stay tuned by following the project here on github. 
 
 
