@@ -67,7 +67,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 
 Freebies:
 ------
-Some freebies included for now, more free templates soon, all of the upcoming templates will be fully angular.js supported
+Some freebies included for now, more free templates soon. All of the upcoming templates will be fully angular.js supported
 
 | Screenshot    | Description  | Demo       
 |:------------- |:-------------|:-----|
