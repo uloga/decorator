@@ -295,20 +295,6 @@ textare:active {
 .block2 {
     width: 16.66666666666667%;
 }
-/* grids */
-.grid .block2 > div,
-.grid .block3 > div,
-.grid .block4 > div,
-.grid .block5 > div,
-.grid .block6 > div,
-.grid .block7 > div,
-.grid .block8 > div,
-.grid .block9 > div,
-.grid .block10 > div,
-.grid .block12 > div {
-    margin: 0;
-    background: transparent;
-}
 /*------ Headers and Headings ------*/
 .fixed-header {
     background-color: #fff;
