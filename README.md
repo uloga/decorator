@@ -27,8 +27,10 @@ $(document).ready(function(){
 </script>
   	
 ````
-IE8 Known Issues: grid system fix
+IE8 Known Issues: grid system fix:
 -----------
+NOTE: this is not the block system... it's a media (ul > li) list grid as in this example: http://codable.org/templates/grids/
+***
 | Grid System  |  Selector |  jQuery Fix | 
 | ------------- |:-------------|:-----|
 | 2 Column | .grid2 | ``` $('.grid2 li:nth-child(2n+0)').css({"margin-right": "0"}); ```
