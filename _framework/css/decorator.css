@@ -59,15 +59,19 @@ a {
     text-decoration: none;
     color: #66757f;
 }
-a:focus, a:active{
-    outline: 0 !important;
+a:focus, 
+a:active{
+    outline: 0 !Important;
 }
 textarea {
     margin-bottom: 10px;
     font-size: 13px;
     font-family: Arial;
 }
-input:focus, input:active, textarea:focus, textare:active {
+input:focus, 
+input:active, 
+textarea:focus, 
+textare:active {
     outline: 0;
 }
 .box-sizing{
@@ -149,7 +153,6 @@ input:focus, input:active, textarea:focus, textare:active {
   /* Good browsers */
   opacity: 0.9;
 }
-
 /*------ Darts or Arrows ------*/
 .dart-top{
     display: inline-block;
@@ -181,9 +184,7 @@ input:focus, input:active, textarea:focus, textare:active {
     border-bottom: 5px solid transparent;
     content: "";
 }
-
 /*------ Wrappers, Content, Footers ------*/
-
 .wrapper1030, .content1030 {
     width: 1030px;
 }
@@ -203,7 +204,6 @@ input:focus, input:active, textarea:focus, textare:active {
     min-height: 10px;
 }
 /*------ Basic Widths ------*/
-
 .w1030 {
     width: 1030px;
 }
@@ -224,10 +224,10 @@ input:focus, input:active, textarea:focus, textare:active {
     float: left;
 }
 .row > div:first-child .inner {
-    margin-left: 0px;
+    margin-left: 0;
 }
 .row > div:last-child .inner {
-    margin-right: 0px;
+    margin-right: 0;
 }
 .offset-right > div:first-child div {
     margin-right: 80px;
@@ -248,7 +248,6 @@ input:focus, input:active, textarea:focus, textare:active {
     box-sizing: border-box;
 }
 /*------ Grids Or Blocks  ------*/
-
 .block2,
 .block3,
 .block4,
@@ -305,12 +304,10 @@ input:focus, input:active, textarea:focus, textare:active {
 .grid .block9 > div,
 .grid .block10 > div,
 .grid .block12 > div {
-    margin: 0px;
+    margin: 0;
     background: transparent;
 }
-
 /*------ Headers and Headings ------*/
-
 .fixed-header {
     background-color: #fff;
     position: fixed;
@@ -335,9 +332,7 @@ input:focus, input:active, textarea:focus, textare:active {
     float: left;
     font-weight: bold;
 }
-
 /*------ Menus and Navbars ------*/
-
 .navbar {
     float: left;
     width: 100%;
@@ -373,7 +368,6 @@ input:focus, input:active, textarea:focus, textare:active {
 .navbar .search-form .button-left{
     border-right: 1px solid rgba(0, 0, 0, 0.17) !important;
 }
-
 .navbar ul li a:hover{
     transition: background-color 0.5s ease;
 }
@@ -699,7 +693,7 @@ input:focus, input:active, textarea:focus, textare:active {
     float: left;
 }
 .action-menu .first a {
-    margin-left: 0px;
+    margin-left: 0;
 }
 .action-menu li a {
     font-size: 12px;
@@ -764,10 +758,10 @@ input[type="radio"]:hover , input[type="checkbox"]:hover, input[type="radio"]:ac
 }
 input:focus, input:active, textarea:focus, .search-form input:focus{
     border-color: #3FA8E2;
-    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
-    -ms-box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
-    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
-    box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+    -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
 }
 /* grouped styles */
 form div:first-child{
@@ -807,7 +801,7 @@ select, .select, .multi-select, .select-number{
 }
 .add-on, .add-to {
     float: left;
-    margin: 0px;
+    margin: 0;
     padding: 4px 12px;
     background: #fff;
     border: 1px solid #CCC;
@@ -980,9 +974,7 @@ form .button{
 .form-basic .grouped input{
     width: 92%;
 }
-
 /* ------ Tables Styling ------ */
-
 .table {
     max-width: 100%;
     background-color: transparent;
@@ -1250,7 +1242,6 @@ form .button{
     height: 26px;
     margin-top: -1px;
 }
-
 /* --------- Labels --------- */
 .label .badge{
     vertical-align: middle;
@@ -1670,7 +1661,6 @@ a .label{
     color: #333;
     text-decoration: underline;
 }
-
 /*------ Menu Filters ------*/
 /* filter top*/
 .navbar .filter-top {
@@ -1803,7 +1793,6 @@ a .label{
 .filter-right li:hover > a, .filter-right .active a{
     color: #0084B4;
 }
-
 /* pagination list */
 .pagination, .pagination li, .pagination li a{
     float: left;
@@ -1833,7 +1822,6 @@ a .label{
     color: #fff;
     z-index: 5;
 }
-
 /* pagination underlined */
 .pagination-underlined li a{
     background-color: transparent;
@@ -1854,12 +1842,9 @@ a .label{
     font-size: 13px;
     top: 0;
 }
-
-
 /* ----------- Color Swatches - Filters -------------*/
 
 /* color palets filter */
-
 .color-palette{
     position: relative;
 }
@@ -2047,7 +2032,6 @@ a .label{
     overflow: hidden;
     width: 100%;
 }
-
 /* promo */
 .promo {
     overflow: hidden;
@@ -2162,12 +2146,12 @@ a .label{
 }
 .action-right .action span{
     margin: 0 8px;
-    padding: 0px 0px 0px 8px;
+    padding: 0 0 0 8px;
     border-left: 1px solid rgba(255,255,255,0.2);
 }
 .action-left .action span {
     margin: 0 8px;
-    padding: 0px 8px 0px 0;
+    padding: 0 8px 0 0;
     border-right: 1px solid rgba(255,255,255,0.2);
 }
 .drop-action {
@@ -2242,7 +2226,6 @@ a .label{
 .tabed .tab-open{
     display: block !important;
 }
-
 /* tabs */
 .tab-panels, .panel {
     float: left;
@@ -2281,7 +2264,6 @@ a .label{
     display: block !important;
     position: absolute;
 }
-
 /* dc tips */
 .dc_tip_wrap{
     position: relative;
@@ -2401,25 +2383,21 @@ form .dc_tip_wrap{
     z-index: 9;
 }
 /* top */
-
 .pop-inner.top > .pop-arrow{
     bottom: 14px;
     left: 50%;
     margin-left: -10px;
 }
-
 .pop-inner.top > .pop-arrow > .front{
     border-top-color: #fff;
     border-bottom-width: 0;
     left: 0;
     top: -1px;
 }
-
 .pop-inner.top > .pop-arrow > .back{
     border-top-color: #999;
     border-bottom-width: 0;
 }
-
 /* bottom */
 .pop-inner.bottom > .pop-arrow{
     top: 4px;
@@ -2436,9 +2414,7 @@ form .dc_tip_wrap{
     border-bottom-color: #999;
     border-top-width: 0;
 }
-
 /* left */
-
 .pop-inner.left > .pop-arrow{
     top: 50%;
     right: 14px;
@@ -2454,9 +2430,7 @@ form .dc_tip_wrap{
     border-left-color: #999;
     border-right-width: 0;
 }
-
 /* right */
-
 .pop-inner.right > .pop-arrow{
     top: 50%;
     left: 4px;
@@ -2472,7 +2446,6 @@ form .dc_tip_wrap{
     border-right-color: #999;
     border-left-width: 0;
 }
-
 /* input styles */
 .pop-wrap input{
     width: 100%;
@@ -2483,7 +2456,6 @@ form .dc_tip_wrap{
     box-sizing: border-box;         /* Opera/IE 8+ */
     padding: 5px;
 }
-
 /* modal */
 body.modal-active{
     overflow: hidden;
@@ -2643,13 +2615,11 @@ body.modal-active{
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
-
 .modal-background, .modal-in-fade {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
 }
 /* modal in down */
-
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -2664,7 +2634,6 @@ body.modal-active{
             transform: none;
   }
 }
-
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -2682,9 +2651,7 @@ body.modal-active{
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
 }
-
 /* modal in up */
-
 @-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -2698,7 +2665,6 @@ body.modal-active{
             transform: none;
   }
 }
-
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -2712,15 +2678,11 @@ body.modal-active{
             transform: none;
   }
 }
-
 .modal-in-up {
   -webkit-animation-name: fadeInUp;
           animation-name: fadeInUp;
 }
-
-
 /* modal in right */
-
 @-webkit-keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -2735,7 +2697,6 @@ body.modal-active{
             transform: none;
   }
 }
-
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -2751,14 +2712,11 @@ body.modal-active{
             transform: none;
   }
 }
-
 .modal-in-right {
   -webkit-animation-name: fadeInRight;
           animation-name: fadeInRight;
 }
-
 /* modal in left */
-
 @-webkit-keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -2772,7 +2730,6 @@ body.modal-active{
             transform: none;
   }
 }
-
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -2786,12 +2743,10 @@ body.modal-active{
             transform: none;
   }
 }
-
 .modal-in-left {
   -webkit-animation-name: fadeInLeft;
           animation-name: fadeInLeft;
 }
-
 /* custom edits */
 .modal-footer .social img{
     float: left;
