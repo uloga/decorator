@@ -7,7 +7,7 @@ Decorator is based on HTML, CSS and Javascript. It includes lot's of ready to us
 Browser Support:
 -------
 
-<img src="http://decorator.codable.org/img/browser.jpg" width="100%"></a>
+<img src="http://decorator.codable.org/img/browsersupport.jpg" width="100%"></a>
 
 How To:
 -------
