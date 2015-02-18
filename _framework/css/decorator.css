@@ -20,10 +20,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: Arial;
-    font-size: 13px;
-}
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -108,10 +104,6 @@ input:focus, input:active, textarea:focus, textare:active {
 .bold{
     font-weight: bold;
 }
-.left100 {
-    float: left;
-    width: 100%;
-}
 .fixed {
     position: fixed;
     left: 0;
@@ -129,6 +121,7 @@ input:focus, input:active, textarea:focus, textare:active {
     overflow: hidden;
 }
 .full-width {
+    float: left;
     width: 100%;
 }
 .rounded {
