@@ -35,9 +35,6 @@ table {
 }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; } /* IE < 8 */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-}
 ul {
     list-style: none;
 }
