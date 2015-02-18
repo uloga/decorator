@@ -80,7 +80,7 @@ Some freebies included for now, more free templates soon. All of the upcoming te
 What's Next?
 ------------
 I'm currently working on angular js components as well as on a new extensive and responsive documentation website.
-Next step after angular.js is Bower, SASS and LESS support.
+Bower, SASS, LESS support will also be incuded.
 Please stay tuned by following the project here on github. 
 
 
