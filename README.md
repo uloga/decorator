@@ -1,6 +1,7 @@
 Decorator Front-End Framework
 ==========
-NOTE: DO NOT USE THE FW ON LIVE PROJECT THIS WAS MADE FOR TEST PURPOSE ONLY!!! THE FW IS BEING REWRITTEN FROM SCRATCH...
+NOTE: DO NOT USE THE FW ON LIVE PROJECT THIS WAS MADE FOR TEST PURPOSE ONLY!!! THE FW IS BEING REWRITTEN FROM SCRATCH
+------
 Decorator, an easy to implement and use component based front-end framework for creating web and mobile supported applications. 
 Decorator is based on HTML, CSS and Javascript. It includes lot's of ready to use pre-built components. 
 
