@@ -1,6 +1,6 @@
 Decorator Front-End Framework
 ==========
-NEW LIGHTWEIGHT REWRITTEN FROM SCRATCH ANGULARJS VERSION OF DECORATOR FRAMEWORK WILL BE ADDED TO THIS REPO NEXT WEEK. ALSO A SPECIAL NODE.JS TOOL I WAS WORKING ON FOR SUPER FAST PROTOTYPING AND A DRAG AND DROP VISUALIZATION EDITOR WILL BE INCLUDED. STAR OR FOLLOW PLEASE.
+New lightweight rewritten from scratch angular.js version of decorator front-end framework will be added to this repo next week. Also a special node.js tool I was working on for super fast prototyping and a drag and drop visualization editor will be included as well, Star Or Follow Please! :)
 ------
 Decorator, an easy to implement and use component based front-end framework for creating web and mobile supported applications. 
 Decorator is based on HTML, CSS and Javascript. It includes lot's of ready to use pre-built components. 
