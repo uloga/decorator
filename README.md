@@ -11,6 +11,9 @@ New extensive and responsive documentation will be added to github pages
 ***
 Star Or Follow Please! :)
 ----
+
+About:
+----
 Decorator, an easy to implement and use component based front-end framework for creating web and mobile supported applications. 
 Decorator is based on HTML, CSS and Javascript. It includes lot's of ready to use pre-built components. 
 
