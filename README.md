@@ -9,7 +9,7 @@ New lightweight rewritten from scratch angular.js version of decorator front-end
 New extensive and responsive documentation will be added to github pages 
 @ [Decorator.io](http://decorator.io)
 ***
-Star Or Follow Please. :)
+Star Or Watch Please. :)
 ----
 
 About:
