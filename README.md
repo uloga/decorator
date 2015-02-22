@@ -5,7 +5,7 @@ NOTE:
 ----
 
 
-New lightweight rewritten from scratch angular.js version of decorator front-end framework will be added to this repo next week. Also a special node.js tool I was working on for super fast prototyping and a drag and drop visualization editor will be included as well.
+New lightweight rewritten from scratch angular.js version of decorator front-end framework will be added to this repo next week. Also a special node.js tool I am working on for super fast prototyping and a drag and drop visualization editor will be included as well.
 New extensive and responsive documentation will be added to github pages 
 @ [Decorator.io](http://decorator.io)
 ***
