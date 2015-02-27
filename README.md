@@ -10,7 +10,7 @@ The framework is being rewritten from scratch. A brand new modular and lighter a
 
 New Framework Will Include:
 ----
-1. Angular.js Components
+1. Angular.js
 2. Bower Support
 3. Composer Support
 4. Sass Support
