@@ -14,7 +14,7 @@ New Framework Will Include:
 2. Bower Support
 3. Composer Support
 4. Sass Support
-5. Node.js Layout Builder [WireFrame Builder, Form Builder, Email Template Builder]
+5. Node.js Layout Builder   (WireFrame Builder, Form Builder, Email Template Builder)
 6. A New Extensive and Responsive Documentation
 
 About:
