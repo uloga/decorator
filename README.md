@@ -4,12 +4,19 @@ Decorator Front-End Framework
 NOTE:
 ----
 
-The framework is being rewritten from scratch. A brand new modular and lighter angular.js supported version of framework and a new extensive and responsive documentation is coming soon at: 
+The framework is being rewritten from scratch. A brand new modular and lighter angular.js supported version of framework and a new extensive and responsive documentation is coming soon here on github and: 
 @ [Decorator.io](http://decorator.io)
 ***
 
-Star Or Watch Please. :)
+New Framework Will Include:
 ----
+1. Angular.js Components
+2. Bower Support
+3. Composer Support
+4. Sass Support
+5. Node.js Layout Builder
+   - Lalyout Builder, Form Builder, Email Template Builder
+6. A New Extensive and Responsive Documentation
 
 About:
 ----
