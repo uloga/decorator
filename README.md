@@ -11,9 +11,9 @@ The framework is being rewritten from scratch. A brand new modular and lighter a
 New Framework Will Include:
 ----
 1. Angular.js
-2. Bower
-3. Composer
-4. Sass
+2. Sass
+3. Bower
+4. Composer
 5. A New Extensive and Responsive Documentation
 6. Node.js Layout Builder   (WireFrame Builder, Form Builder, Email Template Builder)
 
