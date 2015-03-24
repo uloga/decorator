@@ -67,7 +67,7 @@
 			e.preventDefault();
 		});
 		
-		elem.click(function(){return false;});
+		tab.click(function(){return false;});
 	};
 	
 	Tab.next = function(elem, selector, settings){
