@@ -13,9 +13,8 @@ New Framework Will Include:
 1. Angular.js
 2. Sass
 3. Bower
-4. Composer
-5. A New Extensive and Responsive Documentation
-6. Node.js Layout Builder   (WireFrame Builder, Form Builder, Email Template Builder)
+4. A New Extensive and Responsive Documentation
+
 
 About:
 ----
