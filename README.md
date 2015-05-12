@@ -8,13 +8,6 @@ The framework is being rewritten from scratch. A brand new modular and lighter a
 [Decorator.io](http://decorator.io)
 ***
 
-New Framework Will Include:
-----
-1. Angular.js
-2. Sass
-3. Bower
-4. A New Extensive and Responsive Documentation
-
 
 About:
 ----
