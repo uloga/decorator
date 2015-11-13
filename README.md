@@ -5,7 +5,7 @@ NOTE:
 ----
 
 The framework is being rewritten from scratch. A brand new modular and lighter angular.js supported version of framework and a new extensive and responsive documentation is coming soon here on github and: 
-[Decorator.io](http://decorator.io) [HTML/CSS EXAMPLES](http://new.codable.org)
+[Decorator.io](http://decorator.io) [VIEW NEW HTML/CSS EXAMPLES](http://new.codable.org)
 ***
 
 
@@ -89,8 +89,7 @@ Some freebies included for now, more free templates soon. All of the upcoming te
 
 What's Next?
 ------------
-I'm currently rewriting the framework into a lighter cleaner version with a awesome integration of angular.js
-Bower, SASS and LESS support will also be incuded.
+I'm currently rewriting the framework into a lighter cleaner version also working on php css preprocessor.
 Please stay tuned by following the project here on github. 
 
 
