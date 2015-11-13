@@ -5,7 +5,7 @@ NOTE:
 ----
 
 The framework is being rewritten from scratch. A brand new modular and lighter angular.js supported version of framework and a new extensive and responsive documentation is coming soon here on github and: 
-[Decorator.io](http://decorator.io)
+[Decorator.io](http://decorator.io) [HTML/CSS EXAMPLES](http://new.codable.org)
 ***
 
 
