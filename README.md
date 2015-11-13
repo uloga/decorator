@@ -1,6 +1,6 @@
 Decorator Front-End Framework 
 ==========
-[Decorator.io](http://decorator.io) 
+New version soon at: [Decorator.io](http://decorator.io) 
 
 NOTE:
 ----
