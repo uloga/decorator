@@ -1,12 +1,11 @@
 Decorator Front-End Framework 
 ==========
-New version soon at: [Decorator.io](http://decorator.io) 
+New version soon at: [Decorator.io](http://decorator.io) [VIEW NEW HTML/CSS EXAMPLES](http://new.codable.org)
 
 NOTE:
 ----
 
-The framework is being rewritten from scratch. A brand new modular and lighter angular.js supported version of framework and a new extensive and responsive documentation is coming soon here on github and: 
-[VIEW NEW HTML/CSS EXAMPLES](http://new.codable.org)
+The framework is being rewritten from scratch. A brand new modular and lighter angular.js supported version of framework and a new extensive and responsive documentation is coming soon here on github
 ***
 
 
