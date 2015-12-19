@@ -1,4 +1,4 @@
-Decorator, new release is moving To [Modulr.css](https://github.com/uloga/modulr.css)
+Decorator, new release is moving to [Modulr.css](https://github.com/uloga/modulr.css)
 ==========
 New version soon at: [Decorator.io](http://decorator.io) [VIEW NEW HTML/CSS EXAMPLES](http://new.codable.org)
 
