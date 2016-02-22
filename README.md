@@ -86,11 +86,3 @@ Some freebies included for now, more free templates soon. All of the upcoming te
 | <a class="link" href="http://blog.codable.org/" target="_blank"><img src="http://decorator.codable.org/img/parallex.jpg" width="200"></a>    | 6 Page Responsive Parallax Template |<a class="grid-title" href="http://blog.codable.org/" target="_blank">View Demo</a></p> |
 
 
-
-What's Next?
-------------
-I'm currently rewriting the framework into a lighter cleaner version also working on php css preprocessor.
-Please stay tuned by following the project here on github. 
-
-
-For more info and examples please check out: [Decorator Dox](http://decorator.codable.org) 
