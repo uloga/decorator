@@ -1,5 +1,11 @@
+
+Working on modulr.css documentation, you can find beta docs here:  [Modulr.css Beta Docs](https://decorator.io/modulr/)
+==========
+
 New rewritten release is moving to [Modulr.css](https://github.com/uloga/modulr.css)
 ==========
+
+
 New version soon at: [Decorator.io](http://decorator.io) [VIEW NEW HTML/CSS EXAMPLES](http://new.codable.org)
 
 NOTE:
