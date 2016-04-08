@@ -3,8 +3,6 @@ New rewritten release is moving to [Modulr.css](https://github.com/uloga/modulr.
 ==========
 
 
-New version soon at: [Decorator.io](http://decorator.io) [VIEW NEW HTML/CSS EXAMPLES](http://new.codable.org)
-
 NOTE:
 ----
 
