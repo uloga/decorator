@@ -1,5 +1,5 @@
 
-Decorator front-end is departed! [Modulr.css](https://github.com/uloga/modulr.css) Is The New Framework.
+Decorator is departed! [Modulr.css](https://github.com/uloga/modulr.css) Is The New Framework.
 ==========
 
 About:
