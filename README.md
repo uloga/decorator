@@ -1,14 +1,6 @@
 
-New rewritten release is moving to [Modulr.css](https://github.com/uloga/modulr.css)
+Decorator front-end is departed. Checkout The New [Modulr.css](https://github.com/uloga/modulr.css) Framework.
 ==========
-
-
-NOTE:
-----
-
-The framework is being rewritten from scratch. A brand new modular and lighter angular.js supported version of framework and a new extensive and responsive documentation is coming soon here on github
-***
-
 
 About:
 ----
