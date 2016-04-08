@@ -1,7 +1,8 @@
 
-Decorator is departed! [Modulr.css](https://github.com/uloga/modulr.css) Is The New Framework I'm Working On!
+Decorator is departed! 
 ==========
-
+[Modulr.css](https://github.com/uloga/modulr.css) Is The New Framework!
+==========
 About:
 ----
 Decorator, an easy to implement and use component based front-end framework for creating web and mobile supported applications. 
