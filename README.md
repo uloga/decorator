@@ -4,7 +4,7 @@ Decorator is departed!
 [Modulr.css](https://github.com/uloga/modulr.css) Is The New Framework!
 ==========
 
-Examples:
+Decorator Examples:
 ----------
 Few examples included to get you started. Click on thumbnails to view live demo.
 
@@ -17,7 +17,7 @@ Few examples included to get you started. Click on thumbnails to view live demo.
 | <a class="link" href="http://codable.org/templates/admin/" target="_blank"><img src="http://decorator.codable.org/img/examples/admin.jpg" width="180"></a>    | Responsive Admin Layout |<a class="grid-title" href="http://codable.org/templates/admin/" target="_blank">View Example</a></p> |
 
 
-Freebies:
+Decorator Freebies:
 ------
 
 | Screenshot    | Description  | Demo       
